@@ -1,45 +1,23 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# **Code Institute: Milestone Project 2**
 
-Welcome USER_NAME,
+## **Gwent Triathlon Club**
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+This project has been created for my Milestone Project 2 for the Full Stack Development Diploma at The Code Institute. The purpose of the project is to create an interactive front end using HTML, CSS and Javascript.
 
-## Gitpod Reminders
+Gwent Triathlon Club is a fictional triathlon club based in Gwent, Wales. The purpose of the website is to allow website users to learn more about the Gwent triathlon club, to derive answers about the club and attract new members to join the club. The user will interact with the website through a Google maps API to view their training locations; answering some questions to determine their club membership fee and by completing and submitting a joining form that it sent to a fictional club secretary.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## **UX**
 
-`python3 -m http.server`
+### **Main Aims**
+* To create a website that provides the information needed for the website users to learn about the Gwent triathlon club and that attracts new members.
+* To create a website that provides a quick and simple way for new members to join the Gwent triathlon club.
+* To make a website that uses Javascript to allow the website users to interact with the website.
+* To design a website that is both visually appealing and easy to navigate for the wide range of potential users.
+* To create a website that provides a good user experience on mobile, tablet and desktop devices.
 
-A blue button should appear to click: *Make Public*,
-
-Another blue button should appear to click: *Open Browser*.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: *Make Public*,
-
-Another blue button should appear to click: *Open Browser*.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-## Updates Since The Instructional Video
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
+### **User Stories**
+* I am a local triathlete, I want to know what membership price I would have to pay if I was to join the Gwent Triathlon Club.
+* I am the club secretary at Gwent Triathlon Club, I want a simple way for new members to contact me so that I can invite them along to a free trial session.
+* I am the manager a leisure centre in Gwent, I want to know where the local triathlon club currently train and find their contact details, so that I can invite them to rent my sports facilities like the swimming pool and running track.
+* I am the chair of Gwent Triathlon Club, I want a website that looks professional, highlights what we do and the benefits of joining us, so that I attract new members to the club.
+* I am a local person who wants to start duathlon, I want to know if I can join the club without be expected to join in swim training and if the club is suitable for beginners, so that I can decide if I want to join.
