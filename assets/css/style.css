@@ -1,0 +1,44 @@
+/* Google fonts link */
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+/* Navbar background styling */
+.menu-bar{
+    background-color: #00ad36;
+    width: 100%;
+}
+
+/* Logo styling */
+.menu-bar .logo-style{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 40px;
+    letter-spacing: 2px;
+    padding-left: 10px;
+}
+
+/* Menu bar navigation tab text styling*/
+.menu-bar .menu-list{
+    color: white;
+    letter-spacing: 1px;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+/* Toggler button border colour styling, border thickness and gave right margin to look better on the screen */
+.custom-toggler.navbar-toggler{ 
+    border-color: #ffffff;
+    border-width: 3px;
+    margin-right: 10px;
+} 
+
+/* Customised toggler button color with help from this (old) post https://www.geeksforgeeks.org/how-to-change-hamburger-toggler-color-in-bootstrap/ */
+.custom-toggler .navbar-toggler-icon { 
+    background-image: url( 
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
+} 
+
+/* Navbar navigation tab text styling for active page */
+.menu-bar .active{
+    color: #d30731;
+}

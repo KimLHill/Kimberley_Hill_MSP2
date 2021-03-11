@@ -21,3 +21,10 @@ Gwent Triathlon Club is a fictional triathlon club based in Gwent, Wales. The pu
 * I am the manager a leisure centre in Gwent, I want to know where the local triathlon club currently train and find their contact details, so that I can invite them to rent my sports facilities like the swimming pool and running track.
 * I am the chair of Gwent Triathlon Club, I want a website that looks professional, highlights what we do and the benefits of joining us, so that I attract new members to the club.
 * I am a local person who wants to start duathlon, I want to know if I can join the club without be expected to join in swim training and if the club is suitable for beginners, so that I can decide if I want to join.
+
+
+### **Technologies Used**
+* HTML5 used for the .html pages
+* CSS to style the html pages.
+* [Bootstrapv5](https://getbootstrap.com/docs/5.0/getting-started/introduction/) used for the grid layout to make the website responsive and to style appropriately for different screen sizes, to improve the user experience. I also used the bootstrap templates for the navbar (including the toggle button feature)
+* [Google Fonts](https://fonts.google.com/) used to style the headings and main text across all my pages.

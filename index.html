@@ -11,6 +11,34 @@
 <body>
     <header>
         <!--Logo and nav bar -->
+        <!--Navbar template from bootstrap-->
+        <div id="container">
+        <nav class="navbar menu-bar navbar-expand-lg">
+            <!-- Logo -->
+            <a class="navbar-brand logo-style" id="logo-hover" href="index.html">Gwent Triathlon Club</a>
+            <!--Toggle button from bootstrap then customised-->
+            <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--Collapsible navbar content-->
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav ml-auto" id="menu-hover">
+                    <li class="nav-item mr-2 active">
+                        <a class="nav-link menu-list active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item mr-2">
+                        <a class="nav-link menu-list" href="training.html">Training</a>
+                    </li>
+                    <li class="nav-item mr-2">
+                        <a class="nav-link menu-list" href="membership.html">Membership</a>
+                    </li>
+                    <li class="nav-item mr-2">
+                        <a class="nav-link menu-list" href="join.html">Join</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        </div>
     </header> 
 
     <section>
@@ -22,5 +50,9 @@
     <footer>
         <!--social media links and copyright info-->
     </footer>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
 </body>
 </html>
