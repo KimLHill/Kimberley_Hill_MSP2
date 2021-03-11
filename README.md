@@ -27,4 +27,5 @@ Gwent Triathlon Club is a fictional triathlon club based in Gwent, Wales. The pu
 * HTML5 used for the .html pages
 * CSS to style the html pages.
 * [Bootstrapv5](https://getbootstrap.com/docs/5.0/getting-started/introduction/) used for the grid layout to make the website responsive and to style appropriately for different screen sizes, to improve the user experience. I also used the bootstrap templates for the navbar (including the toggle button feature) and the buttons.
-* [Google Fonts](https://fonts.google.com/) used to style the headings and main text across all my pages.
+* [Google Fonts](https://fonts.google.com/) used to style the headings and main text across all pages.
+* [Font Awesome](https://fontawesome.com/) used for the social media icons in the footer across all pages.

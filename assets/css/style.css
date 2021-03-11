@@ -76,6 +76,7 @@ h2{
     color: #ffffff;
 }
 
+/* main body text and background styling on index.html */
 .about-GTC{
     background-color: #d30731;
     color: #ffffff;
@@ -83,4 +84,18 @@ h2{
     padding-left: 50px;
     padding-top: 30px;
     padding-bottom: 30px;
+}
+
+/* Footer background and text styling */
+.footer{
+    background-color: #00ad36;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 2px;
+}
+
+/* padding to social media icons */
+.social-media{
+   margin-top: -10px;
 }
