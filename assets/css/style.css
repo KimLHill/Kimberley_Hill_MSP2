@@ -42,3 +42,30 @@
 .menu-bar .active{
     color: #d30731;
 }
+
+/* Home page hero image styling */
+.callout-container{ 
+    height: 80vh;
+    width: 100%;
+    background: url('../images/triclub.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    position: relative;
+    align-content: center;
+    background-attachment: scroll;
+}
+
+/* Callout container styling for all pages  */
+.call-out{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(252, 247, 247, 0.4);
+}
+
+/* Callout message text styling for all pages  */
+.callout-message{
+    font-size: 50px !important;
+    color: white; 
+}
