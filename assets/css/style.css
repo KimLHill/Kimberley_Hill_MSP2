@@ -55,6 +55,17 @@
     background-attachment: scroll;
 }
 
+/* Training locations page hero image styling */
+.callout-container-training{ 
+    height: 120vh;
+    width: 100%;
+    background: url('../images/lake-swimming.webp') no-repeat center center fixed;
+    background-size: cover;
+    position: relative;
+    align-content: center;
+    background-attachment: scroll;
+}
+
 /* Callout container styling for all pages  */
 .call-out{
     display: flex;
