@@ -14,22 +14,22 @@
     font-weight: bold;
     font-size: 40px;
     letter-spacing: 2px;
-    padding-left: 10px;
+    padding-left: 50px;
 }
 
 /* Menu bar navigation tab text styling*/
 .menu-bar .menu-list{
     color: white;
     letter-spacing: 1px;
-    font-size: 20px;
-    margin-right: 20px;
+    font-size: 30px;
+    margin-right: 50px;
 }
 
 /* Toggler button border colour styling, border thickness and gave right margin to look better on the screen */
 .custom-toggler.navbar-toggler{ 
     border-color: #ffffff;
     border-width: 3px;
-    margin-right: 10px;
+    margin-right: 50px;
 } 
 
 /* Customised toggler button color with help from this (old) post https://www.geeksforgeeks.org/how-to-change-hamburger-toggler-color-in-bootstrap/ */
@@ -41,6 +41,7 @@
 /* Navbar navigation tab text styling for active page */
 .menu-bar .active{
     color: #d30731;
+    font-weight: bold;
 }
 
 /* Home page hero image styling */
