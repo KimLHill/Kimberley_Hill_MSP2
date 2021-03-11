@@ -45,7 +45,7 @@
 
 /* Home page hero image styling */
 .callout-container{ 
-    height: 80vh;
+    height: 115vh;
     width: 100%;
     background: url('../images/triclub.jpeg') no-repeat center center fixed;
     background-size: cover;
@@ -61,11 +61,26 @@
     justify-content: center;
     height: 100%;
     width: 100%;
-    background-color: rgba(252, 247, 247, 0.4);
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 /* Callout message text styling for all pages  */
 .callout-message{
     font-size: 50px !important;
     color: white; 
+}
+
+/* h2 text styling */
+h2{
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.about-GTC{
+    background-color: #d30731;
+    color: #ffffff;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
