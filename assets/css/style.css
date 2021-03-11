@@ -77,6 +77,17 @@
     background-attachment: scroll;
 }
 
+/* Join page hero image styling */
+.callout-container-join{ 
+    height: 120vh;
+    width: 100%;
+    background: url('../images/swimbikerunman.jpg') no-repeat center center fixed;
+    background-size: cover;
+    position: relative;
+    align-content: center;
+    background-attachment: scroll;
+}
+
 /* Callout container styling for all pages  */
 .call-out{
     display: flex;
