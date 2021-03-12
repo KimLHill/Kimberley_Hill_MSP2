@@ -120,6 +120,24 @@ h2{
     padding-bottom: 30px;
 }
 
+/* map section text and background styling on training.html */
+.map-info{
+    background-color: #ffffff;
+    color: black;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/* Set the size of the div element that contains the map */
+#map {
+  height: 400px;
+  /* The height is 400 pixels */
+  width: 100%;
+  /* The width is the width of the web page */
+}
+
 /* Footer background and text styling */
 .footer{
     background-color: #00ad36;
