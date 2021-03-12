@@ -132,11 +132,12 @@ h2{
 
 /* Map styling on training.html */
 #map {
-  height: 500px;
+  height: 600px;
   width: 80%;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 30px;
 }
 
 /* Footer background and text styling */

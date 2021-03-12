@@ -32,6 +32,6 @@ Gwent Triathlon Club is a fictional triathlon club based in Gwent, Wales. The pu
 * [Google Maps API](https://developers.google.com/maps/documentation/javascript/overview?hl=en_GB) to create the map of Gwent and map markers for highlighting the locations used by GTC for swim, bike & run training on the Training page.
 
 ### **Credits**
-* I used this [tutorial](https://developers.google.com/maps/documentation/javascript/adding-a-google-map?hl=en_GB) and the html, css and js code from it to implement the Google maps API on my training.html page.
-* I used this [tutorial](https://developers.google.com/maps/documentation/javascript/infowindows?hl=en_GB) to learn about info windows for displaying information about my marker locations when clicked, but I didn't directly copy any code from this source.
-* I used this [GitHub info window demo](https://gist.github.com/Cathon/9f650b5b722abc28e715) and copied the template of the js code and function to add multiple markers to my map. I then added additional info and styling to make it my own.
+* I got the code to initialise the Google map from the [Google API website](https://developers.google.com/maps/documentation/javascript/custom-markers?hl=en_GB).
+* I watched this [tutorial](https://www.bing.com/videos/search?q=how+to+use+google+maps+api+to+display+different+locations+with+different+button+clicks&docid=608010461900771143&mid=0EB559B0CB45BB09ADB70EB559B0CB45BB09ADB7&view=detail&FORM=VIRE) to understand how to implement custom map markers and combine it with info windows.
+* I used this [post](https://medium.com/free-code-camp/how-to-change-javascript-google-map-marker-color-8a72131d1207) to get the details of the different colour map marker urls.
