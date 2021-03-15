@@ -3,7 +3,7 @@
 
 /* Navbar background styling */
 .menu-bar{
-    background-color: #00ad36;
+    background-color: #007c00;
     width: 100%;
 }
 
@@ -40,7 +40,8 @@
 
 /* Navbar navigation tab text styling for active page */
 .menu-bar .active{
-    color: #d30731;
+    color: #ffffff;
+    text-decoration: underline;
     font-weight: bold;
 }
 
@@ -112,7 +113,7 @@ h2{
 
 /* main body text and background styling on index.html */
 .about-GTC{
-    background-color: #d30731;
+    background-color: #b71c1c;
     color: #ffffff;
     padding-right: 50px;
     padding-left: 50px;
@@ -140,9 +141,45 @@ h2{
   margin-bottom: 30px;
 }
 
+/* Background and positioning styling of features section on training.html*/
+.features{
+    background-color:#b71c1c;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* Styling of map key border */
+.map-key{
+    height: 80px;
+    width: 15%;
+    margin: auto;
+    border-style: double;
+    border-color: #b71c1c;
+}
+
+/* Styling for font awesome swim icon on training.html */
+.swim-icon{
+    color:lightskyblue;
+}
+
+/* Styling for font awesome bike icon on training.html */
+.bike-icon{
+    color:lightgreen;
+}
+
+/* Styling for font awesome run icon on training.html */
+.run-icon{
+    color:rgb(248, 248, 86);
+}
+
+/* Styling for main text on training.html */
+.features p{
+    color: #ffffff;
+}
+
 /* Footer background and text styling */
 .footer{
-    background-color: #00ad36;
+    background-color: #007c00;
     color: #ffffff;
     text-align: center;
     padding-top: 10px;

@@ -72,6 +72,14 @@ var centerCords = {
           type: 'swim'
         },
         {
+            placeName: 'Parc Bryn Bach',
+            LatLng: [{
+              lat: 51.78366,
+              lng: -3.27281
+          }],
+          type: 'swim'
+        },
+        {
             placeName: 'Wales National Velodrome',
             LatLng: [{
               lat: 51.57418,
@@ -116,6 +124,14 @@ var centerCords = {
             LatLng: [{
               lat: 51.82184,
               lng: -3.01764
+          }],
+          type: 'bike'
+        },
+        {
+            placeName: 'Blackwood',
+            LatLng: [{
+              lat: 51.66929,
+              lng: -3.19462
           }],
           type: 'bike'
         },

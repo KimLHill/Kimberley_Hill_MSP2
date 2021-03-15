@@ -28,7 +28,7 @@ Gwent Triathlon Club is a fictional triathlon club based in Gwent, Wales. The pu
 * CSS to style the html pages.
 * [Bootstrapv5](https://getbootstrap.com/docs/5.0/getting-started/introduction/) used for the grid layout to make the website responsive and to style appropriately for different screen sizes, to improve the user experience. I also used the bootstrap templates for the navbar (including the toggle button feature) and the buttons.
 * [Google Fonts](https://fonts.google.com/) used to style the headings and main text across all pages.
-* [Font Awesome](https://fontawesome.com/) used for the social media icons in the footer across all pages; for the swim, bike & run icons in the logo;
+* [Font Awesome](https://fontawesome.com/) used for the social media icons in the footer across all pages; for the swim, bike & run icons in the logo and on Training Locations page.
 * [Google Maps API](https://developers.google.com/maps/documentation/javascript/overview?hl=en_GB) to create the map of Gwent and map markers for highlighting the locations used by GTC for swim, bike & run training on the Training page.
 
 ### **Credits**
