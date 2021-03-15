@@ -19,9 +19,9 @@
 
 /* Menu bar navigation tab text styling*/
 .menu-bar .menu-list{
-    color: white;
+    color: #ec7676;
     letter-spacing: 1px;
-    font-size: 30px;
+    font-size: 20px;
     margin-right: 50px;
 }
 
@@ -41,8 +41,6 @@
 /* Navbar navigation tab text styling for active page */
 .menu-bar .active{
     color: #ffffff;
-    text-decoration: underline;
-    font-weight: bold;
 }
 
 /* media query to increase padding-left on logo in navbar on all pages above small breakpoint*/
@@ -138,7 +136,7 @@ h2{
 
 /* main body text and background styling on index.html */
 .about-GTC{
-    background-color: #b71c1c;
+    background-color: #ec7676;
     color: #ffffff;
     padding-right: 50px;
     padding-left: 50px;
@@ -212,7 +210,7 @@ h2{
 
 /* Footer background and text styling */
 .footer{
-    background-color: #007c00;
+    background-color: #b71c1c;
     color: #ffffff;
     text-align: center;
     padding-top: 10px;
