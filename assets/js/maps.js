@@ -241,5 +241,14 @@ function initMap() {
     addMarkerInfo();
 }
 
+/* Making the zoom of the map responsive for different screen sizes */
+/* Code sourced from https://dev.to/beumsk/google-maps-show-multiple-markers-and-add-your-event-on-click-226i */
+var responsiveZoom = (window.innerWidth < 768) ? 6.75 : 7.75;
+
+window.addEventListener("resize", function() {
+  if (window.innerWidth < 768) responsiveZoom = 6.75
+  else if (window.innerWidth > 768) responsiveZoom = 7.75
+  map.setZoom(responsiveZoom);
+});
 
 
