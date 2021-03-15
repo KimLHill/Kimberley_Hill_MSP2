@@ -92,6 +92,17 @@
     background-attachment: scroll;
 }
 
+/* Triathlon page hero image styling */
+.callout-container-triathlon{ 
+    height: 80vh;
+    width: auto;
+    background: url('../images/triathlon-cartoon.png') no-repeat center center fixed;
+    background-size: cover;
+    position: relative;
+    align-content: center;
+    background-attachment: scroll;
+}
+
 /* Join page hero image styling */
 .callout-container-join{ 
     height: 120vh;
@@ -189,21 +200,6 @@ h2{
 /* Styling for main text on training.html */
 .features p{
     color: #ffffff;
-}
-
-/* Gym members picture container styling on Join Now page */
-.square-container-join{
-    width: cover;
-    height: 400px;
-}
-
-/* Gym members pictures styling on Join Now page */
-#jenny-bg{
-    background: url('../images/cyclist.jpg') no-repeat center center;
-    height: 100%;
-    background-position-x: 50%;
-    background-position-y: 25%;
-    background-size: 100%;
 }
 
 /* main body text and background styling on join.html */
