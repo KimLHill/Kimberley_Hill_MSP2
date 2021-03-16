@@ -27,7 +27,7 @@ $(document).ready(function(){
         $('#results').text('Your score is: ' + results + ' out of ' + total);
     });
 
-    //Refreshes quiz
+    //Refresh quiz
     $('#refresh').click(function(){
         location.href=location.href;
     });

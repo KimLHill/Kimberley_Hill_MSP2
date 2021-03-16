@@ -210,11 +210,39 @@ h2{
     padding-left: 50px;
 }
 
+/* Header background styling on membership.html */
+.membership-header{
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 
+/* Membership benefits background and text styling on membership.html */
+.membership-benefits{
+    background-color: #59b460;
+    color: #ffffff;
+    max-width: 500px;
+    margin-top: O;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+}
 
+/* Membership options background and text styling on membership.html */
+.membership-options{
+    background-color: #ec7676;
+    color: #ffffff;
+    max-width: 500px;
+    margin-top: O;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+}
 
-
-/* main body text and background styling on join.html */
+/* Main body background styling on join.html */
 .join-GTC{
     padding-right: 50px;
     padding-left: 50px;
@@ -305,5 +333,9 @@ h2{
     color: #ffffff;
     border: 2px solid #ffffff;
     pointer-events: none;
+}
+
+#results{
+    padding-top: 20px;
 }
 
