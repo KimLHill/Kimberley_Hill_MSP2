@@ -235,3 +235,20 @@ h2{
    color: #ffffff;
 }
 
+/* Styling for Triathlon Quiz on triathlon.html */
+body{
+  font-size: 20px;
+  color:black;
+}
+.question{
+  font-weight: bold;
+}
+.answers {
+    margin-bottom: 20px;
+}
+
+#submit:hover{
+  background-color: #3a8;
+}
+
+

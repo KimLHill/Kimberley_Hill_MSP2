@@ -35,3 +35,4 @@ Gwent Triathlon Club is a fictional triathlon club based in Gwent, Wales. The pu
 * I got the code to initialise the Google map from the [Google API website](https://developers.google.com/maps/documentation/javascript/custom-markers?hl=en_GB).
 * I watched this [tutorial](https://www.bing.com/videos/search?q=how+to+use+google+maps+api+to+display+different+locations+with+different+button+clicks&docid=608010461900771143&mid=0EB559B0CB45BB09ADB70EB559B0CB45BB09ADB7&view=detail&FORM=VIRE) to understand how to implement custom map markers and combine it with info windows.
 * I used this [post](https://medium.com/free-code-camp/how-to-change-javascript-google-map-marker-color-8a72131d1207) to get the details of the different colour map marker urls.
+* I watched this [tutorial](https://simplestepscode.com/javascript-quiz-tutorial/) to get the basic funtionality of the triathlon quiz, which I then added my own code and styling to modify for my needs.
