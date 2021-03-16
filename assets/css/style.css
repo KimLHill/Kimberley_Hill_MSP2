@@ -203,14 +203,20 @@ h2{
 /* Background and positioning styling of quiz intro section on triathlon.html*/
 .features-quiz-intro{
     background-color:#ec7676;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    color: #ffffff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 50px;
+    padding-left: 50px;
 }
 
-/* Styling for quiz intro text on traiathlon.html */
-.features-quiz-intro p{
-    color: #ffffff;
+/* Background and positioning styling of quiz on triathlon.html*/
+.triathlon-quiz{
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
+
+
 
 /* main body text and background styling on join.html */
 .join-GTC{
@@ -235,20 +241,72 @@ h2{
    color: #ffffff;
 }
 
-/* Styling for Triathlon Quiz on triathlon.html */
-body{
-  font-size: 20px;
-  color:black;
-}
-.question{
-  font-weight: bold;
-}
-.answers {
-    margin-bottom: 20px;
+
+
+/* Quiz styling */
+#quiz-container{
+    width: 60%;
+    background-color: #ec7676;
+    color: #ffffff;
+    margin: 20px auto;
+    overflow: auto;
+    padding: 25px;
 }
 
-#submit:hover{
-  background-color: #3a8;
+.quiz-btn {
+    text-align: center;
+    cursor: pointer;
 }
 
+.quiz-btn:hover {
+    color: #000000;
+    background-color: #ffffff;
+}
+
+.submit-results-btn {
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #007c00;
+    border-radius: 50px;
+    border: 3px solid #b71c1c;
+    min-height: 40px;
+    padding-top: 4px;
+    max-width: 150px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.submit-results-btn:hover {
+    color: #000000;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 50px;
+    border: 3px solid #b71c1c;
+    min-height: 40px;
+    padding-top: 4px;
+}
+
+.quiz-btn {
+    margin: 0 auto;
+    min-width: 450px;
+    max-width: 450px;
+    display: block; 
+    margin-top: 3px;
+    margin-bottom: 3px;
+    
+}
+
+.correct {
+    background-color: #007c00;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    pointer-events: none;
+}
+
+.incorrect {
+    background-color: red;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    pointer-events: none;
+}
 

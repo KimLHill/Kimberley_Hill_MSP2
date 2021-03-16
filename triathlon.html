@@ -68,17 +68,52 @@
             </div>
          </div>
     </section>
-    <section>
+    <section class="triathlon-quiz">
         <div class="row">
-        <div class="col-12 text-center">
+        <div class="col-12">
         <!--Quiz-->
-            <div id="quiz"></div>
-            <!--button, used button template from Bootstrap-->
-            <button class="btn btn-success fw-bold" id="submit">Submit Answers</button>
-            <div id="results"></div>
+            <div id="quiz-container">
+                <div class="questions-header text-center">
+                <h2 style="color:#ffffff;">Triathlon Quiz</h2>
+                    <p>Choose 1 answer to each of the following 10 questions. There is only 1 correct answer per question. Submit your results to find out your score.</p>
+                </div>
+                    <div class="questions text-center">
+                        <h3>Q1. What is the correct order of a triathlon?</h3>
+                    </div>
+                    <div class="answer-options">
+                        <!--button, used button template from Bootstrap-->
+                        <p class="btn btn-success standard-btn quiz-btn true">Swim, bike, run</p><br>
+                        <p class="btn btn-success standard-btn quiz-btn false">Bike, swim, run</p><br>
+                        <p class="btn btn-success standard-btn quiz-btn false">Run, swim, bike</p><br>
+                        <p class="btn btn-success standard-btn quiz-btn false">Bike, run, swim</p><br>
+                    </div>
+                        <br>
+                        <div class="questions text-center">
+                        <h3>Q2. An aquathlon consists of?</h3>
+                        </div> 
+                        <br>
+            <section class="container-fluid results-section">
+            <div class="row">
+                <div class="col-12">
+                    <!--button, used button template from Bootstrap-->
+                    <p class="submit-results-btn answer-btn-margin text-center" id="show-results">Get my score</p>
+                </div>
+                
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="standard-box standard-font responsive-font hide-display text-center">
+                        <h1 id="results"></h1>
+                    </div>
+                </div>
+            </div>
+            </section>
+
+            </div>
         </div>
         </div>
     </section>
+    
     <footer class="footer">
         <!--social media links and copyright info-->
         <p>Want to know more? Check us out on our social media:</p>
