@@ -200,6 +200,18 @@ h2{
     color: #ffffff;
 }
 
+/* Background and positioning styling of quiz intro section on triathlon.html*/
+.features-quiz-intro{
+    background-color:#ec7676;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* Styling for quiz intro text on traiathlon.html */
+.features-quiz-intro p{
+    color: #ffffff;
+}
+
 /* main body text and background styling on join.html */
 .join-GTC{
     padding-right: 50px;
