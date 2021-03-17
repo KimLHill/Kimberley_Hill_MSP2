@@ -12,7 +12,7 @@
     </script>
     <script type="text/javascript">
         (function(){
-            emailjs.init("user_eBBvzNgu0M54ciI6f0ED0");
+            emailjs.init("user_SDqPkQwKOzCcrnwKfkdn5");
         })();
     </script>
     <title>Join | Gwent Triathlon Club</title>
@@ -74,19 +74,17 @@
         <div class="col-12">
                 <div class="join-GTC text-center">
                     <h2 style="color: black;">Become a member of GTC</h2>
+                    <br>
                     <p>If you'd like to connect with like-minded people, come and give us a try! The first stage to gaining membership is to complete the form below with your details. Once the form has been submitted, our club secretary will invite you to one of our training sessions. You can attend two free training sessions to make sure that we are the club for you and then will we ask that you pay the membership fee.</p>
                 </div>
         </div>
         </div>
     </section>
-    <section id="join">
-        <div class="row">
-        <div class="col-12">
-            <div id="sign-up"></div>
-            <div class="center-form">
-                <!--form, used form template from Bootstrap then styled-->
-                <form class="join-form" onsubmit="return sendMail(this);">
-                    <br>
+    <section>
+        <div class="row" id="form-section-bg">
+        <div class="col-12" id="form-background">
+        <div class="center-form">
+                <form onsubmit="return sendMail(this);">
                     <h3 style="color: #ffffff;">GTC Membership Form</h3>
                     <br>
                     <label for="name" style="color: #ffffff; font-weight: bold;">Full Name</label>
@@ -96,20 +94,22 @@
                     <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
                     <br>
                     <label for="reasonForJoining" style="color: #ffffff; font-weight: bold;">Tell us a bit about you:</label>
-                    <textarea rows="5" name="reasonForJoining" class="form-control" id="reasonForJoining" placeholder="E.g. What disciplines are you interested in? Are you a junior, adult or senior? What is your reason for joining GTC?" required></textarea>
+                    <textarea rows="5" name="projectsummary" class="form-control" id="projectsummary" placeholder="E.g. What disciplines are you interested in? Are you a junior, adult or senior? What is your reason for joining GTC?" required></textarea>
                     <br>
-                    <button type="submit" class="btn btn-success fw-bold center-block" id="form-submitted">Submit form</button>
+                    <button type="submit" class="btn btn-success center-block">Submit form</button>
                 </form>
-            </div>
+        </div>
         </div>
         </div>
     </section>
+
     <section>
         <!--FAQs-->
         <div class="row">
         <div class="col-12">
             <div class="faqs text-center">
                 <h2>Joining GTC FAQs</h2>
+                <br>
                 <h5>How do I join?</h5>
                 <p>Complete and submit our <a href="#join" style="color: #ffffff;">joining form.</a></p>
                 <h5>Do I have to live in Gwent?</h5>
@@ -139,7 +139,7 @@
             <p>Copyright © 2021 GTC</p>
         </div>
     </footer>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 <script src="assets/js/sticky-navbar.js"></script>

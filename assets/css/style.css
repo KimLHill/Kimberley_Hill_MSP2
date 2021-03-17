@@ -361,29 +361,35 @@ h2{
     padding-top: 30px;
 }
 
-/* Styling to sign up background on join.html */
-#sign-up{
-    overflow: auto;
-    padding: 20px;
+/* White background styling behind joining form on join.html */
+#form-section-bg{
+    padding-bottom: 50px;
+    padding-top: 30px;
 }
 
-/* Form styling on join.html */
-.join-form{
-    padding-right: 50px;
-    padding-left: 50px;
-    padding-bottom: 30px;
+/* Joining form background and text styling */
+#form-background{
     background-color: #59b460;
-    padding-bottom: 30px;
-    margin-right: auto;
+    width: 70%;
     margin-left: auto;
-    margin-bottom: 30px;
-    width: 50%;
-    text-align: center;
+    margin-right: auto;
 }
 
-/* Text colour oflabels of Bootstrap template for checkbuttons on joining form */
-.form-check-label{
-    color: #ffffff;
+/* Form fields styling */
+.center-form {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 90%;
+}
+
+/* Submit form button styling */
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: #007c00;
+    color: #fafafa;
 }
 
 /* main body text and background styling for FAQs section on join.html */
@@ -419,4 +425,8 @@ h2{
    margin-top: -10px;
    color: #ffffff;
 }
+
+
+
+
 
