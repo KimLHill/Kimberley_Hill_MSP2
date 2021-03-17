@@ -3,7 +3,8 @@
 function sendMail(contactForm) {
     emailjs.send("gmail","GwentTriathlonClub", {
             "from_name": contactForm.firstname.value,
-            "from_email": contactForm.address.value,
+            "from_email": contactForm.emailaddress.value,
+            "reason_for_joining": contactForm.reasonforjoining.value
         })
     .then(
         function(response) {
@@ -15,3 +16,8 @@ function sendMail(contactForm) {
     );
     return false;  // To block from loading a new page
 }
+
+/* Alert box to thank user for the form submission */
+$('#form-submitted').click(function(){
+    alert("Thank you for submitting the membership form.\n\nOur club secretary will respond to you within the next 48hrs with our training calendar and arrange for you to come and try 2 free sessions.\n\nWe look forward to meeting you soon!")
+});

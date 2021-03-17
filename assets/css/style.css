@@ -345,17 +345,19 @@ h2{
 /* Styling to sign up background on join.html */
 #sign-up{
     overflow: auto;
-    padding: 25px;
+    padding: 20px;
 }
 
 /* Form styling on join.html */
 .join-form{
     padding-right: 50px;
     padding-left: 50px;
+    padding-bottom: 30px;
     background-color: #59b460;
     padding-bottom: 30px;
     margin-right: auto;
     margin-left: auto;
+    margin-bottom: 30px;
     width: 50%;
     text-align: center;
 }
