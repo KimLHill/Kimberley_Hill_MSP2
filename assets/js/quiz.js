@@ -14,6 +14,12 @@ $(document).ready(function(){
         }
     });
 
+     /* Fades out other quiz answer options once user has selected an option */
+     $('.quiz-btn').click(function(){
+        $(this).siblings().fadeOut('300');
+    });
+
+
     /* Increases result by one point if answer was correct */
     $('.true').one('click', function() {
         results ++;
