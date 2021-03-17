@@ -269,9 +269,14 @@ h2{
     padding-left: 50px;
 }
 
+/* Added padding to white background behind quiz on triathlon.html */
+.triathlon-quiz{
+    padding-bottom: 50px;
+}
+
 /* Quiz background styling */
 #quiz-container{
-    width: 100%;
+    width: 70%;
     background-color: #ec7676;
     color: #ffffff;
     margin: 20px auto;
