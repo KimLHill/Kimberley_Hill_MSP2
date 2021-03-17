@@ -37,3 +37,4 @@ Gwent Triathlon Club is a fictional triathlon club based in Gwent, Wales. The pu
 * I used this [post](https://medium.com/free-code-camp/how-to-change-javascript-google-map-marker-color-8a72131d1207) to get the details of the different colour map marker urls.
 * I used this [pdf file](https://www.britishtriathlon.org/britain/documents/get-involved/membership/tristar/colouring-sheets/triathlon-quiz-1.pdf) for inspiration for my triathlon quiz questions and answers.
 * I used this [tutorial](https://www.w3schools.com/js/js_popup.asp) to learn how to do the javascript alert popup boxes to display the membership pricing and package requirement information.
+* I watched this [video](https://youtu.be/Vg-fEVtmQVI) to learn how to link to a specific part on a different html.page.
