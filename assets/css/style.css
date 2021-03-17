@@ -19,10 +19,11 @@
 
 /* Menu bar navigation tab text styling*/
 .menu-bar .menu-list{
-    color: #ec7676;
+    color: #ffffff;
     letter-spacing: 1px;
     font-size: 20px;
     margin-right: 50px;
+    margin-left: 50px;
 }
 
 /* Toggler button border colour styling, border thickness and gave right margin to look better on the screen */
@@ -40,7 +41,7 @@
 
 /* Navbar navigation tab text styling for active page */
 .menu-bar .active{
-    color: #ffffff;
+    color: #ec7676;
 }
 
 /* media query to increase padding-left on logo in navbar on all pages above small breakpoint*/
