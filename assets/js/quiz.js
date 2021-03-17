@@ -32,7 +32,7 @@ $(document).ready(function(){
         $('#results').text('Your score is: ' + results + ' out of ' + total);
     });
 
-    /* Refresh quiz */
+    /* Refresh quiz when user clicks 'Try Again' button */
     $('#refresh').click(function(){
         location.href=location.href;
     });
