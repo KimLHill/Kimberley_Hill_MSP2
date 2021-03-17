@@ -137,12 +137,12 @@ h2{
 
 /* main body text and background styling on index.html */
 .about-GTC{
-    background-color: #ec7676;
-    color: #ffffff;
+    background-color: #ffffff;
+    color: #000000;
     padding-right: 50px;
     padding-left: 50px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 /* map section text and background styling on training.html */
