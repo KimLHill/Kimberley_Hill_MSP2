@@ -6,6 +6,15 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/18396221c3.js" crossorigin="anonymous"></script>
     <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+    <!--Script to load EmailJS from EmailJS website-->
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init("user_eBBvzNgu0M54ciI6f0ED0");
+        })();
+    </script>
     <title>Join | Gwent Triathlon Club</title>
 </head>
 <body>
@@ -73,43 +82,43 @@
         <div class="col-12">
             <div id="sign-up">
         <!--form, used form template from Bootstrap then styled-->
-                <form class="join-form" id="join-form">
+                <form class="join-form" id="join-form" onsubmit="return sendMail(this);">
                 <div class="form-group col-11 mx-auto">
                     <br>
-                    <label for="exampleInputName1" style="color: #ffffff; font-weight: bold;">Full Name</label>
-                    <input type="text" class="form-control" id="exampleInputName1" placeholder="Enter full name">
+                    <label for="name" style="color: #ffffff; font-weight: bold;">Full Name</label>
+                    <input type="text" class="form-control" id="firstname" placeholder="Enter full name">
                 </div>
                 <br>
                 <div class="form-group col-11 mx-auto">
-                    <label for="exampleInputEmail1" style="color: #ffffff; font-weight: bold;">Email Address</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                    <label for="email" style="color: #ffffff; font-weight: bold;">Email Address</label>
+                    <input type="email" class="form-control" id="emailaddress" placeholder="Enter email">
                     </div>
                 <br>
                 <p style="color: #ffffff; font-weight: bold;">Age: (on 1st Jan this year)</p>
                 <!--Radio check buttons, used template from Bootstrap then styled-->
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                    <label class="form-check-label" for="inlineCheckbox1">Under 18 (Junior)</label>
+                    <input class="form-check-input" type="checkbox" id="juniorCheckbox" value="option1">
+                    <label class="form-check-label" for="juniorCheckbox">Under 18 (Junior)</label>
                 </div>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                    <label class="form-check-label" for="inlineCheckbox2">18+ (Adult + Senior)</label>
+                    <input class="form-check-input" type="checkbox" id="seniorCheckbox" value="option2">
+                    <label class="form-check-label" for="seniorCheckbox">18+ (Adult + Senior)</label>
                 </div>
                 <br>
                 <br>
                 <p style="color: #ffffff; font-weight: bold;">I am interested in: (please tick all that apply)</p>
                 <!--Radio check buttons, used template from Bootstrap then styled-->
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option1">
-                    <label class="form-check-label" for="inlineCheckbox3">Swim</label>
+                    <input class="form-check-input" type="checkbox" id="swimCheckbox" value="option1">
+                    <label class="form-check-label" for="swimCheckbox">Swim</label>
                 </div>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="option2">
-                    <label class="form-check-label" for="inlineCheckbox4">Bike</label>
+                    <input class="form-check-input" type="checkbox" id="bikeCheckbox" value="option2">
+                    <label class="form-check-label" for="bikeCheckbox">Bike</label>
                 </div>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="checkbox" id="inlineCheckbox5" value="option3">
-                    <label class="form-check-label" for="inlineCheckbox5">Run</label>
+                    <input class="form-check-input" type="checkbox" id="runCheckbox" value="option3">
+                    <label class="form-check-label" for="runCheckbox">Run</label>
                 </div>
                 <br>
                 <br>
@@ -158,5 +167,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 <script src="assets/js/sticky-navbar.js"></script>
+<script src="assets/js/email.js"></script>
 </body>
 </html>
