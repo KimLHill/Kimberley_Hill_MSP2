@@ -206,6 +206,59 @@ h2{
     color: #ffffff;
 }
 
+/* Header background styling on membership.html */
+.membership-header{
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/* Membership benefits background and text styling on membership.html */
+.membership-benefits{
+    background-color: #59b460;
+    color: #ffffff;
+    max-width: 500px;
+    margin-top: O;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+}
+
+/* Membership options background and text styling on membership.html */
+.membership-options{
+    background-color: #ec7676;
+    color: #ffffff;
+    max-width: 500px;
+    margin-top: O;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+}
+
+/*Change margin of membership-container on screen sizes between 750-990px */
+@media screen and (min-width: 750px) and (max-width: 990px) {
+#membership-container {
+    min-width: 500px;
+    margin-left: 180px;
+    }
+}
+
+#annual-membership{
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+/* Membership options button styling on membership.html */
+.membership-options-btn{
+    text-align: center;
+    cursor: pointer;
+    width: 50%;
+    color: #ec7676;
+}
+
 /* Background and positioning styling of quiz intro section on triathlon.html*/
 .features-quiz-intro{
     background-color:#ffffff;
@@ -294,51 +347,6 @@ h2{
 /* Background styling to quiz results section */
 #results{
     padding-top: 20px;
-}
-
-/* Header background styling on membership.html */
-.membership-header{
-    padding-right: 50px;
-    padding-left: 50px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-
-/* Membership benefits background and text styling on membership.html */
-.membership-benefits{
-    background-color: #59b460;
-    color: #ffffff;
-    max-width: 500px;
-    margin-top: O;
-    margin-bottom: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 10px;
-}
-
-/* Membership options background and text styling on membership.html */
-.membership-options{
-    background-color: #ec7676;
-    color: #ffffff;
-    max-width: 500px;
-    margin-top: O;
-    margin-bottom: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 10px;
-}
-
-#annual-membership{
-    padding-right: 50px;
-    padding-left: 50px;
-}
-
-/* Membership options button styling on membership.html */
-.membership-options-btn{
-    text-align: center;
-    cursor: pointer;
-    width: 50%;
-    color: #ec7676;
 }
 
 /* Main body background styling on join.html */
