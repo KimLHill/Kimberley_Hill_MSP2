@@ -340,7 +340,28 @@ h2{
     padding-right: 50px;
     padding-left: 50px;
     padding-top: 30px;
+}
+
+#sign-up{
+    overflow: auto;
+    padding: 25px;
+}
+
+/* Form styling on join.html */
+.join-form{
+    padding-right: 50px;
+    padding-left: 50px;
+    background-color: #ec7676;
     padding-bottom: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    text-align: center;
+}
+
+/* Text colour oflabels of Bootstrap template for checkbuttons on joining form */
+.form-check-label{
+    color: #ffffff;
 }
 
 /* Footer background and text styling */
