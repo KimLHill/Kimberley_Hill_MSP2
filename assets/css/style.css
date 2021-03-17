@@ -166,9 +166,14 @@ h2{
 
 /* Background and positioning styling of features section on training.html*/
 .features{
-    background-color:#b71c1c;
+    background-color:#ec7676;
     padding-top: 50px;
     padding-bottom: 50px;
+}
+
+/* h4 styling of features section on training.html */
+.features h4{
+    color: #ffffff;
 }
 
 /* Styling of map key border */
