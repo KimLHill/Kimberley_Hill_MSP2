@@ -392,6 +392,11 @@ button[type="submit"] {
     color: #fafafa;
 }
 
+/* Text styling for note at bottom of form */
+.center-form p{
+    color: #ffffff;
+}
+
 /* main body text and background styling for FAQs section on join.html */
 .faqs{
     background-color: #ec7676;
