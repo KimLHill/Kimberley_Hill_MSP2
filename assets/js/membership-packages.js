@@ -1,5 +1,5 @@
 /* Learnt how to create a modal with the help of this tutorial https://www.w3schools.com/howto/howto_css_modals.asp */
-/* Then added my own code to call the modal function but to change the modal text for each button */
+/* Then added my own code to call the modal function and to change the modal text for each button */
 
 /* Call the modal */
 var modal = document.getElementById("myModal");

@@ -11,12 +11,15 @@ var centerCords = {
  /* Customised map marker icons to different colours for swim, bike & run locations */
   const icons = {
     swim: {
+    /* icon sourced from https://medium.com/free-code-camp/how-to-change-javascript-google-map-marker-color-8a72131d1207 */
       icon: 'http://maps.google.com/mapfiles/ms/icons/blue-dot.png',
     },
     bike: {
+    /* icon sourced from https://medium.com/free-code-camp/how-to-change-javascript-google-map-marker-color-8a72131d1207 */
       icon: 'http://maps.google.com/mapfiles/ms/icons/green-dot.png',
     },
     run: {
+    /* icon sourced from https://medium.com/free-code-camp/how-to-change-javascript-google-map-marker-color-8a72131d1207 */
       icon: 'http://maps.google.com/mapfiles/ms/icons/yellow-dot.png',
     },
   };

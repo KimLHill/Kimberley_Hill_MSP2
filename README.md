@@ -170,6 +170,14 @@ Features on the seperate pages include:
     * used to integrate email into my project through emailing the submitted join up form to me and by returning an auto-reply email to the user on successful receipt on the form.
 * [ColorTool](https://material.io/resources/color/#!/?view.left=0&view.right=1&secondary.color=FFFF00&primary.color=D50000) 
     * used to decide the shades of greens and reds used for all the website. I also used the accessibility feature to find that exact hex code of colours that provided good readability for the user.
+* [Balsamiq](https://balsamiq.com/)
+    * used to create my wireframes
+* [W3C Markup Validation Service](https://validator.w3.org/#validate_by_input)
+    * used to check the validity of my html code for all .html pages.
+* [W3C CSS Validation Service](http://jigsaw.w3.org/css-validator/#validate_by_input)
+    * used to check the validity of my css code for style.css file.
+* [JSHint](https://jshint.com/)
+    * used to check the validity of my javascript code for all .js files.
 
 ### **Deploying my project**
 
@@ -216,6 +224,8 @@ To make a copy of my project to your GitHub account, you can fork a copy of my p
 * I used this [post](https://medium.com/free-code-camp/how-to-change-javascript-google-map-marker-color-8a72131d1207) to get the details of the different colour map marker urls.
 * I used code from the [EmailJS documentation](https://www.emailjs.com/docs/sdk/send/) to add the necessary scripts, add my serviceID and templateID for my email functionality.
 * I used [EmailJS email templates](https://dashboard.emailjs.com/admin/templates) to create the template for both emailing the submitted form to my email and for the auto-reply email sent to the user upon successful submission.
+* I used this [post](https://www.geeksforgeeks.org/how-to-change-hamburger-toggler-color-in-bootstrap/) for the code for changing the navbar toggler.
+* I used this [post](https://dev.to/beumsk/google-maps-show-multiple-markers-and-add-your-event-on-click-226i) for the code to make my map zoom responsive for different screen sizes.
 
 ### **Acknowledgements**
 * Code Institute mentor Seun Owonikoko whose feedback throughout the project influenced my website design, content and features.
@@ -250,3 +260,17 @@ The images used on the website are from the following sources:
 5. **Join Page**
 
     * [Hero image](https://www.mensacosacoaching.co.uk/wp-content/uploads/2019/11/trihero.jpg)
+
+The images used on the wireframes that weren't used for the website, are from the following sources:
+
+1. **Wireframe Home Page**
+
+    * [hero image](https://www.britishtriathlon.org/website/var/tmp/image-thumbnails/10000/13367/thumb__NewsThumbnail/img_2715.jpeg)
+
+2. **Wireframe Training Page**
+
+    * [hero image](https://th.bing.com/th/id/R028cbf31b006667c0d423326d6659a1a?rik=Vo2DgdJbkGuZyA&riu=http%3a%2f%2fwww.stockholmswimmingclub.se%2fwp-content%2fuploads%2f2018%2f06%2fDSC_0622-e1491560262870-1024x699.jpg&ehk=GrKDlZpgEGtyvDtNUcIaoCGfnWrEHeNYHPL9iK6ccVk%3d&risl=&pid=ImgRaw)
+
+3. **Wireframe Membership Page**
+
+    * [hero image](https://th.bing.com/th/id/OIP.ni-mDXYV3nTC5yWc-eGd0AHaEK?w=301&h=180&c=7&o=5&dpr=1.25&pid=1.7)

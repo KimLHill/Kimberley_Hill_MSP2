@@ -14,13 +14,12 @@ $(document).ready(function(){
         }
     });
 
-     /* Fades out other quiz answer options once user has selected an option */
+     /* Removes other quiz answer options once user has selected an option */
      $('.quiz-btn').click(function(){
         $(this).siblings().fadeOut('300');
     });
 
-
-    /* Increases result by one point if answer was correct */
+    /* Increases result score by one point if selected answer is correct */
     $('.true').one('click', function() {
         results ++;
     });

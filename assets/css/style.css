@@ -113,7 +113,7 @@
     background-attachment: scroll;
 }
 
-/* Callout container styling for all pages  */
+/* Callout container styling for all pages */
 .call-out{
     display: flex;
     align-items: center;
@@ -129,7 +129,7 @@
     color: white; 
 }
 
-/* h2 text styling */
+/* h2 text styling on all pages */
 h2{
     font-weight: bold;
     color: #ffffff;
@@ -155,6 +155,15 @@ h2{
     padding-bottom: 30px;
 }
 
+/* Styling of map key border on training.html */
+.map-key{
+    height: 80px;
+    width: 80%;
+    margin: auto;
+    border-style: double;
+    border-color: #b71c1c;
+}
+
 /* Map styling on training.html */
 #map {
   height: 600px;
@@ -162,7 +171,7 @@ h2{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 
 /* Background and positioning styling of features section on training.html*/
@@ -175,15 +184,6 @@ h2{
 /* h4 styling of features section on training.html */
 .features h4{
     color: #ffffff;
-}
-
-/* Styling of map key border */
-.map-key{
-    height: 80px;
-    width: 80%;
-    margin: auto;
-    border-style: double;
-    border-color: #b71c1c;
 }
 
 /* Styling for font awesome swim icon on training.html */
@@ -219,7 +219,6 @@ h2{
     background-color: #59b460;
     color: #ffffff;
     max-width: 500px;
-    margin-top: O;
     margin-bottom: 30px;
     margin-left: auto;
     margin-right: auto;
@@ -231,7 +230,6 @@ h2{
     background-color: #ec7676;
     color: #ffffff;
     max-width: 500px;
-    margin-top: O;
     margin-bottom: 30px;
     margin-left: auto;
     margin-right: auto;
@@ -246,6 +244,7 @@ h2{
     }
 }
 
+/* Padding for first paragraph on membership.html */
 #annual-membership{
     padding-right: 50px;
     padding-left: 50px;
@@ -257,6 +256,50 @@ h2{
     cursor: pointer;
     width: 50%;
     color: #ec7676;
+}
+
+
+/* Background styling for membership package modals */
+/* Code from https://www.w3schools.com/howto/howto_css_modals.asp */
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4); 
+}
+
+/* Modal content/Box */
+/* Code from https://www.w3schools.com/howto/howto_css_modals.asp */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* Modal close button */
+/* Code from https://www.w3schools.com/howto/howto_css_modals.asp */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+/* Modal close button styling when user hovers over close cross icon */
+/* Code from https://www.w3schools.com/howto/howto_css_modals.asp */
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 /* Background and positioning styling of quiz intro section on triathlon.html*/
@@ -384,7 +427,7 @@ h2{
     max-width: 90%;
 }
 
-/* Submit form button styling */
+/* 'Submit form' button styling */
 button[type="submit"] {
     margin-top: 15px;
     margin-bottom: 20px;
@@ -430,50 +473,3 @@ button[type="submit"] {
    margin-top: -10px;
    color: #ffffff;
 }
-
-
-
-
-
-/* The Modal (background) */
-.modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-}
-
-/* Modal Content/Box */
-.modal-content {
-  background-color: #fefefe;
-  margin: 15% auto; /* 15% from the top and centered */
-  padding: 20px;
-  border: 1px solid #888;
-  width: 80%; /* Could be more or less, depending on screen size */
-}
-
-/* The Close Button */
-.close {
-  color: #aaa;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-  color: black;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-
-
-
-
