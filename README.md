@@ -225,3 +225,27 @@ To make a copy of my project to your GitHub account, you can fork a copy of my p
 * [w3schools Modal Box tutorial](https://www.w3schools.com/howto/howto_css_modals.asp) used to learn how to write the html and javascript code for creating modals for membership package option buttons.
 * I watched this [Code Institute tutorial](https://courses.codeinstitute.net/courses/course-v1:CodeInstitute+IFD101+2017_T3/courseware/03d3f6524ad249d9b33e3336d156dfd0/e4710f80cdf34bffbd607bc102482d5c/) to implment my EmailJS functionality.
 * My triathlete friends who viewed my website as potential users and provided feedback on the content.
+
+### **Media**
+
+The images used on the website are from the following sources:
+
+1. **Home Page:**
+
+    * [Hero image]
+
+2. **Training Page:**
+
+    * [Hero image]
+
+3. **Membership Page**
+
+    * [Hero image]
+
+4. **Triathlon Page**
+
+    * [Hero image](https://th.bing.com/th/id/R9ce818f97c9fa1d3df09016056e196f8?rik=TYsaVMYuGhUGjg&riu=http%3a%2f%2fphotos-images.active.com%2ffile%2f3%2f1%2foriginal%2f29d7bd6d-14fc-4b91-b8c9-d968e844a630.jpg&ehk=TQKsBIYYkyK5iAzCgqav%2bNSuaZPkOSNWtHtCaKRrl94%3d&risl=&pid=ImgRaw)
+
+5. **Join Page**
+
+    * [Hero image]

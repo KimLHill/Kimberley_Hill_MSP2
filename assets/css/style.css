@@ -84,7 +84,7 @@
 .callout-container-membership{ 
     height: 80vh;
     width: auto;
-    background: url('../images/cyclist.jpg') no-repeat center center fixed;
+    background: url('../images/tri-bike.jpg') no-repeat center center fixed;
     background-size: cover;
     position: relative;
     align-content: center;
@@ -95,7 +95,7 @@
 .callout-container-triathlon{ 
     height: 80vh;
     width: auto;
-    background: url('../images/triathlon-cartoon.png') no-repeat center center fixed;
+    background: url('../images/triathlon-image.jpg') no-repeat center center fixed;
     background-size: cover;
     position: relative;
     align-content: center;
