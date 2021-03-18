@@ -81,15 +81,48 @@ The project five separate pages: Home page (index.html), Training (training.html
 
     * Each page has a hero image (although the image is different for each page), the image is the same size across all pages. Within the hero image is a callout message (again the message is different for each page to fit with the page content) that includes a ‘Join Us’ button that links directly to the sign-up form. The positioning of the callout message is the same on every page and deliberately positioned to catch the user’s eye.
 
-3. **Footer**
+3. **Title**
 
-    *The footer is the same red (#b71c1c) across all pages to provide consistency in design and fit with the brand colours. It includes social media links and copyright information which are coloured white to fit with the brand colours. The footer is the normal place that a user would look for this information.
+    * Each page starts with a simple title under the hero image, that explains the purpose of that page.
 
-4. **Background colour styling**
+4. **Footer**
+
+    *The footer is the same red (#b71c1c) across all pages to provide consistency in design and fit with the brand colours. It includes social media links and copyright information which are coloured white to fit with the brand colours. The footer is the normal place that a user would look for this information. The social media links open a new tab, when clicked by the user, to take them to the corresponding website.
+
+5. **Background colour styling**
 
     * The background colour for the main body of text on each page is consist across all pages. A white background with black text for the first section and then either a light red (#ec7676) or a light green (#59b460) with white text. The light red and light green keep with the brand colours but provide some added visual appeal.
 
+Features on the seperate pages include:
+1. **Home Page**
 
+    * Includes information to introduce the user to the club and what they are about.
+    * Includes buttons that link to other pages in the website to encourage the user to explore the website further.
+
+2. **Training page**
+
+    * Includes an interactive map where the user can explore the training locations the club uses for swimming, cycling and running. Each map marker is colour coded to match eaither swim, bike or run with a simple key to explain this to the user. This allows the user to see if they're locations near them for the triathlon discpline they want, at a quick glance. If the user clicks on a map marker, then the name of the training location appears.
+    * Includes the locations for swim, bike and run. The headings are colour-coded to match the map amrker colours form the map above it to keep consistency in the user experience. The location names also match those in the map marker info windows, again for consistency. The locations are grouped into the triathlon discipline they provide (swim, bike or run) and then further grouped into the type of training (e.g. swim is grouped into river swims, sea swims etc.). This grouping allows the user to quickly and easily get the information that they are after. A font awesome icon relevant to each discipline above the corresponding group, adds visual appeal and further aids the user to quickly find information.
+
+3. **Membership page**
+
+    * Includes a section on the benefits of club membership with added font awesome tick icons to improve visual appeal and emphasis the long list of benefits to the user.
+    * Includes a section on the membership packages available. Instead of the user having to navigate say a table with pricing info, the process has been simplified so that the user just clicks on the button on the package that matches their need. Just 5 options keep this a simple process. The user gets clear feedback on which package they are about to select as the cursor changes to a pointer (as per convention, so the user would expect this to happen) and the button text changes colour as the user hovers over it to further emphasis the otpion that is about to be selected. When the user selects a package by clicking the corresponding button, a modal with pricing and any other information (like eligibility criteria) appears. The modal provides a simple and clear message that is easy for the user to understand.
+
+4. **Triathlon page**
+
+    * Includes a simple introduction to the quiz, explaining to the user the number of questions, number of correct answers per question and how to get their score.
+    * Includes an interactive quiz with 10 questions on triathlon that provides a fun way to test their current level of knowledge and to help them learn more about the sport. Consistnecy in the style, layout, colours and number of potential answers keeps the quiz simple for the user to understand. The user has visual feedback about which answer option they are about to select as the cursor changes to a pointer (like convention and in keeping with the buttons on previous page) and the background colour and text changes colour as the user hovers over it. As a user selects an answer, the other possible answers are hidden this keeps the display clean. When the user selects an option, if it is correct then it colours green or colours red if incorrect, this provides instant visual feedback to the user.
+    * Includes a submit and try again button that are in keeping with the brand colours but styled differently to the buttons of the quiz answers to make it obvious to the user that the user is at the end of the quiz. When the user hovers over either again they change to a cursor pointer and change background colour and text colour, keeping consistency with what the user has already experinced through the quiz.
+    * Includes a results section that shows the user the number of questions they got correct and the total number of questions, that is only revealed when the user clicks on the 'Get my score' button.
+    * Includes a 'try again' button that refreshes the quiz and takes the suer back up to the top of the page, so that the user can have another go.
+
+5. **Join page**
+
+    * Includes an interactive sign-up form. The form is simple in design to be quick and simple for the user to complete. Placeholder text aids the user's understanding of what is required. Validation ensures that the user has inputed information into the fields before they can submit the form. 
+        * The 'submit form' button is styled to stand out from the form background but in keeping with the brand colours used on the website. Keeping consistency, the cursor changes to a pointer and the background colour changes when the user hovers over the button to provide visual feedback that they are about to submit the form. Once the user has clicked the 'submit form' button it keeps a dull green colour to provide visual feedback that the form has been submitted.
+        * Once the form has been submitted, an email is sent to my email inbox containing the information inputted in the form. Also an auto-reply email is sent to the user to confirm that the club has successfully received their form and explaining the next steps. This provides a quick, simple and easy sign up process for the user.
+        * A note below the form informs the user to check their inbox for a confirmation email that their form has been successfully recived by the club. It also provides alternative contact information if something was to go wrong with the form.
 
 ### **Technologies Used**
 * HTML5 used for the .html pages
