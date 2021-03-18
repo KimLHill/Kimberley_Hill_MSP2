@@ -123,18 +123,93 @@ Features on the seperate pages include:
         * The 'submit form' button is styled to stand out from the form background but in keeping with the brand colours used on the website. Keeping consistency, the cursor changes to a pointer and the background colour changes when the user hovers over the button to provide visual feedback that they are about to submit the form. Once the user has clicked the 'submit form' button it keeps a dull green colour to provide visual feedback that the form has been submitted.
         * Once the form has been submitted, an email is sent to my email inbox containing the information inputted in the form. Also an auto-reply email is sent to the user to confirm that the club has successfully received their form and explaining the next steps. This provides a quick, simple and easy sign up process for the user.
         * A note below the form informs the user to check their inbox for a confirmation email that their form has been successfully recived by the club. It also provides alternative contact information if something was to go wrong with the form.
+    * Includes a Frequently Asked Questions (FAQs) section to provide useful information about the club. Certain answers provide links the the relevant parts of the website to aid the user in finding the information they are after.
+    * Includes contact details if the user has any further questions or any other business they want to discuss with the club. When the user clicks the email or Facebook link then a seperate window opens to the corresponding website. This provides simplicity for the user but is also convention and what the user would expect.
+
+### **Features changed from wireframes**
+* The text content of the website was improved and added to as the project progressed.
+* Added swim, bike, run font awesome icons to logo.
+* Changed colours from Welsh flag hex colours green (#00AD36), white (#FFFFFF) and red (#D30731) to green (0007c00), white (#ffffff) and red (#b71c1c). The darker shades of green and red gave better readability and looked less ‘garish’ on the page, whilst keeping with the flag colour theme. I changed the footer red (#b71c1c). I changed the strong background colour for lighter versions of the green (#59b460) and red (#ec7676) so it was easier on the user’s eye and improved readability.
+* Changed navbar active tab from Welsh flag red (#D30731) to lighter (#b71c1c) to keep consistency with the other colours used on the website.
+* Added an overlay to the hero image to help the callout message stand out to the user more clearly. This will help to catch their eye and make them more likely to press the ‘Join Us’ button. Changed the ‘Join Us’ buttons to white to stand out better against the hero image background.
+* Removed background colour of main text on Home page as this page didn’t have multiple sections of information that needed to be separated unlike the other pages and therefore keeping a white background made it cleaner, easier to read and more visually attractive.
+* Added map key to aid the user in understanding what the different map marker colours mean. A map key is also convention and what the user would expect to see.
+* Changed the font awesome icons on Training Locations section from map marker to swim, bike & run icons to suit the text better and improve the visual appeal.
+* Changed the formatting on tablet devices to be the same as on mobile devices for Training Locations information on Training page and also for Member Benefits and Membership package option sections on Membership page. It looked to squished when done as per wireframe design. This improves the user experience and makes the website look more professional.
+* Changed the quiz answer options from radio buttons to buttons. This matched the style of other buttons used on the website further adding to the consistency in design for an enhanced user experience.
+* Added results section to display the user’s score when the ‘get my score’ button is clicked.
+* Added ‘try again’ button to quiz to refresh the quiz and return the user to the top of the page in one simple step.
+* Changed the form input fields as feedback from potential users of the website highlighted that some users would be uncomfortable submitting information like their age. In changing the input fields, I simplified the form so it is easier to understand, less time consuming to complete and less invasive in the questions asked. A text box asking for a bit of information about the user means the form now gives the user the option to include as much or little information as they are happy to provide, whilst getting the basic information required. It also gives the user the option to add any questions they may have without having to look for contact information and submit a separate email. This minimises the amount of user effort and eases the admin load for the club secretary.
+* Fixed navbar position so it in accessible at all times to the user, no matter where on the page they are for ease of navigating the website.
+
+### **Future Scope**
+* In the future I could add greater interactive and visual content to improve the user experience like including videos from past club training sessions or introducing the key club members to give the user a virtual experience of the club.
+* For a real-life triathlon club, it may be useful to include a link to a secure payment process that allows the user to sign up to the club and make their membership payments.
+* In the future a feature that allowed gym members to book onto training sessions with an interactive club training calendar would be useful as well as a member’s log-in area where they could see what sessions or races, they have booked to attend.
+
 
 ### **Technologies Used**
-* HTML5 used for the .html pages
-* CSS to style the html pages.
-* Javascript to make my website interactive.
-* [jQuery](https://api.jquery.com/) javascript library for my javascript code denoted by $ prefix on membership.js, quiz.js and sticky-navbar.js.
-* [Bootstrapv5](https://getbootstrap.com/docs/5.0/getting-started/introduction/) used for the grid layout to make the website responsive and to style appropriately for different screen sizes, to improve the user experience. I also used the bootstrap templates for the navbar (including the toggle button feature) and the buttons. I also used the Bootstrap template for the Javascript code to create the sticky navbar on desktop devices.
-* [Google Fonts](https://fonts.google.com/) used to style the headings and main text across all pages.
-* [Font Awesome](https://fontawesome.com/) used for the social media icons in the footer across all pages; for the swim, bike & run icons in the logo; on Training Locations page and on Membership page.
-* [Google Maps API](https://developers.google.com/maps/documentation/javascript/overview?hl=en_GB) to create the map of Gwent and map markers for highlighting the locations used by GTC for swim, bike & run training on the Training page.
-* [EmailJS](https://www.emailjs.com/) to integrate email into my project through emailing the submitted join up form to me and by returning an auto-reply email to the user on successful receipt on the form.
+* HTML5 
+    * used for the .html pages
+* CSS 
+    * used to style the html pages.
+* Javascript 
+    * used to make my website interactive.
+* [jQuery](https://api.jquery.com/) javascript library 
+    * used for my javascript code denoted by $ prefix on membership.js, quiz.js and sticky-navbar.js.
+* [Bootstrapv5](https://getbootstrap.com/docs/5.0/getting-started/introduction/) 
+    * used for the grid layout to make the website responsive and to style appropriately for different screen sizes, to improve the user experience. I also used the bootstrap templates for the navbar (including the toggle button feature) and the buttons. I also used the Bootstrap template for the Javascript code to create the sticky navbar on desktop devices.
+* [Google Fonts](https://fonts.google.com/) 
+    * used to style the headings and main text across all pages.
+* [Font Awesome](https://fontawesome.com/) 
+    * used for the social media icons in the footer across all pages; for the swim, bike & run icons in the logo; on Training Locations page and on Membership page.
+* [Google Maps API](https://developers.google.com/maps/documentation/javascript/overview?hl=en_GB) 
+    * used to create the map of Gwent and map markers for highlighting the locations used by GTC for swim, bike & run training on the Training page.
+* [EmailJS](https://www.emailjs.com/) 
+    * used to integrate email into my project through emailing the submitted join up form to me and by returning an auto-reply email to the user on successful receipt on the form.
+* [ColorTool](https://material.io/resources/color/#!/?view.left=0&view.right=1&secondary.color=FFFF00&primary.color=D50000) 
+    * used to decide the shades of greens and reds used for all the website. I also used the accessibility feature to find that exact hex code of colours that provided good readability for the user.
 
+### **Deploying my project**
+
+ I created my project using GitHub and deployed my project using the GitHub pages hosting platform.
+
+* To deploy my wesbite I completed the following steps:
+
+    1. Open GitHub.
+    2. Select my project repository called KimLHill/Kimberley_Hill_MSP2.
+    3. Clicked the 'settings' tab in my project respository.
+    4. Scrolled down to the 'GitHub Pages' section.
+    5. I changed the source to 'Branch: master' then clicked the 'save' button.
+    6. This deployed my website which can be viewed [here]().
+
+### **Using My Project**
+
+To run my project locally you can clone the project.
+
+* To clone my project, complete the following steps:
+
+    1. Open GitHub.
+    2. Select my project repository called KimLHill/Kimberley_Hill_MSP2.
+    3. Click on the green ‘Code’ button.
+    4. Click the clipboard icon next to the url to copy the url link.
+    5. Open Git Bash.
+    6. Change the current working directory to the location where you want the cloned directory.
+    7. Type git clone, and then paste the url link you copied in step 4.
+    8. Press enter to create your local clone.
+
+        Alternative methods of cloning my project can be found [here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
+
+To make a copy of my project to your GitHub account, you can fork a copy of my project.
+
+* To fork a copy of my project, complete the following steps:
+
+    1. Log in to your GitHub account (or create a new account).
+    2. Search for my repository called KimLHill/Kimberley_Hill_MSP2.
+    3. In the far right-hand corner of the screen at the top of the repository, click the ‘fork’ button next to the fork icon.
+
+        Further information about forking a repositorycan be found [here](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo).
+        
 ### **Credits**
 * I got the code to initialise the Google map from the [Google API website](https://developers.google.com/maps/documentation/javascript/custom-markers?hl=en_GB).
 * I used this [post](https://medium.com/free-code-camp/how-to-change-javascript-google-map-marker-color-8a72131d1207) to get the details of the different colour map marker urls.
@@ -149,3 +224,4 @@ Features on the seperate pages include:
 * I watched this [video](https://youtu.be/Vg-fEVtmQVI) to learn how to link to a specific part on a different html.page.
 * [w3schools Modal Box tutorial](https://www.w3schools.com/howto/howto_css_modals.asp) used to learn how to write the html and javascript code for creating modals for membership package option buttons.
 * I watched this [Code Institute tutorial](https://courses.codeinstitute.net/courses/course-v1:CodeInstitute+IFD101+2017_T3/courseware/03d3f6524ad249d9b33e3336d156dfd0/e4710f80cdf34bffbd607bc102482d5c/) to implment my EmailJS functionality.
+* My triathlete friends who viewed my website as potential users and provided feedback on the content.
