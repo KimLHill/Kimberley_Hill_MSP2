@@ -141,6 +141,7 @@ Features on the seperate pages include:
 * Added ‘try again’ button to quiz to refresh the quiz and return the user to the top of the page in one simple step.
 * Changed the form input fields as feedback from potential users of the website highlighted that some users would be uncomfortable submitting information like their age. In changing the input fields, I simplified the form so it is easier to understand, less time consuming to complete and less invasive in the questions asked. A text box asking for a bit of information about the user means the form now gives the user the option to include as much or little information as they are happy to provide, whilst getting the basic information required. It also gives the user the option to add any questions they may have without having to look for contact information and submit a separate email. This minimises the amount of user effort and eases the admin load for the club secretary.
 * Fixed navbar position so it in accessible at all times to the user, no matter where on the page they are for ease of navigating the website.
+* Changed some of the hero images to better quality images.
 
 ### **Future Scope**
 * In the future I could add greater interactive and visual content to improve the user experience like including videos from past club training sessions or introducing the key club members to give the user a virtual experience of the club.
@@ -232,15 +233,15 @@ The images used on the website are from the following sources:
 
 1. **Home Page:**
 
-    * [Hero image]
+    * [Hero image](https://th.bing.com/th/id/R9de685ca8c2faa3957ad0cd6393d3575?rik=VUOIPtdSS8%2b9%2bA&riu=http%3a%2f%2ftraleetriclub.ie%2fwp-content%2fuploads%2f2014%2f01%2fClub-Photo-Tri-Kingdom-Come-2013.jpg&ehk=u8KePaoTKX4VruZnvp7caCcYP02b6v8nC6Mx%2b8WHcBk%3d&risl=&pid=ImgRaw)
 
 2. **Training Page:**
 
-    * [Hero image]
+    * [Hero image](https://img.redbull.com/images/f_auto,q_auto/redbullcom/2019/03/14/03195412-6e72-4b30-890b-9a0ad5f51644/lake-okatina-new-zealand-swimming.JPG)
 
 3. **Membership Page**
 
-    * [Hero image]
+    * [Hero image](https://media1.rosebikes.de/cms/triathlon_2016.aggeeynjw1.jpg)
 
 4. **Triathlon Page**
 
@@ -248,4 +249,4 @@ The images used on the website are from the following sources:
 
 5. **Join Page**
 
-    * [Hero image]
+    * [Hero image](https://www.mensacosacoaching.co.uk/wp-content/uploads/2019/11/trihero.jpg)
