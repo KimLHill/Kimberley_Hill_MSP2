@@ -1,3 +1,33 @@
+/* Learnt how to create a modal with the help of this tutorial https://www.w3schools.com/howto/howto_css_modals.asp */
+/* Then added my own code to call the modal function but to change the modal text for each button */
+
+/* Call the modal */
+var modal = document.getElementById("myModal");
+
+/* Define the buttons that open the modal */
+var adultBtn = document.getElementById("individual-adult");
+
+/* Get the <span> element that closes the modal */
+var span = document.getElementsByClassName("close")[0];
+
+/* Display the modal with individual-junior text when individual-adult membership button is clicked */
+adultBtn.onclick = function() {
+  modal.style.display = "block";
+  $(".modal-content p").text("Adult");
+}
+
+/* When user clicks on close cross button, close the modal */
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+/* If user clicks anywhere outside of the modal, close the modal */
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+
 /* Alert box for Individual Junior membership info */
 $('#individual-junior').click(function(){
     alert("Our Individual Junior membership costs just £240 per year (£20 per month) which includes all club junior training activities with coaching and all the membership benefits.\n\nPlease note: We must receive parent or guardian consent before you can become a member.\n\nPlease note: Juniors can ONLY attend our club training marked JUNIORS WELCOME.")
@@ -22,26 +52,3 @@ $('#couple-adult').click(function(){
 $('#family').click(function(){
     alert("Our Family membership costs just £1560 per year (£130 per month) which includes all club training activities with coaching and all the membership benefits.\n\nPlease note: both adults must be aged between 18-59 and both juniors aged under 18.\n\nPlease note: Juniors can ONLY attend our club training marked JUNIORS WELCOME.")
 });
-
-/* Modal created with the help of this tutorial https://www.w3schools.com/howto/howto_css_modals.asp */
-/* Get variables for the modal */
-var modal = document.getElementById("myModal");
-var btn = document.getElementById("myBtn");
-var span = document.getElementsByClassName("close")[0];
-
-/* When the user clicks on the 'submit form' button, open the modal */
-btn.onclick = function() {
-  modal.style.display = "block";
-}
-
-/* When the user clicks on (x), close the modal */
-span.onclick = function() {
-  modal.style.display = "none";
-}
-
-/* If user clicks anywhere outside of the modal, close the modal */
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
-}
