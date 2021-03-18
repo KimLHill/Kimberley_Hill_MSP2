@@ -58,16 +58,44 @@ Having created the user stories so that I knew who I was designing my website fo
 
     * When addressing the surface plane, I focused on the website branding and details like the colour, fonts and images. I kept in mind the question: What will be appeal to my users?
 	
-        * Hero images – relevant to triathlon
+        * Hero images – relevant to triathlon to appeal to the target user groups.
 	    * Colour scheme – I chose to use the colours of green, white and red as these are the colours of the Welsh flag and Gwent Triathlon Club is a South and East Wales based tri club, so will appeal to the intended website audience. The colours are also gender neutral to have greater appeal. I choose the specific green (#00AD36), white (#FFFFFF) and red (#D30731) hex colours as these are the hex colours used on the Welsh flag.
 	    * Map marker colours – I chose to have a different map marker colour for the swim, bike and run locations respectively to make it obvious to the user what training was at what location.
 	    * Icons – I chose to use font awesome icons across the pages where it could aid the user’s understanding and for greater visual appeal.
-	    * Logo – I chose to add font awesome swim, bike and run icons to improve the visual and make it easily understandable on first glance that the website is for triathletes as the logo is one of the first features the user will see upon accessing the website.
+	    * Logo – I chose to add font awesome swim, bike and run icons to improve the visual and make it easily understandable on first glance that the website is for triathletes as the logo is one of the first features the user will see upon accessing the website. I also chose to position the logo in the top left hand corner of the website (within the navbar) as this is a convention of websites that users have to come to expect.
+        * Navbar active tab - I chose to have the active tab a different colour to the other navbar tabs so that it was obvious to the user as to which page they were currently on. I also chose to make the active tab a duller colour and the other tabs a bright white colour, so that the user's eye was drawn to the other tabs to encourage them to click them and explore the website further.
+        * Callout message - to make it obvious to the user what the page is about. 
+        * Join Us buttons - I chose to add 'Join Us' buttons in the callout message of each page as a quick way to allow the users to reach the sign-up form to increase the simplicity of joining and increase the amount of traffic to this part of the website.
+
+### ** Wireframes**
+Before I started coding my project, I created wireframes using Balsamiq. I created wireframes for mobile, tablet and desktop devices to decide the layout at different screen sizes. I also used the user stories to add more detail to the website to provide a better user experience. A pdf copy of my wireframes can be found under wireframes in the assets folder.
+
+### **Features**
+The project five separate pages: Home page (index.html), Training (training.html), Membership (membership.html), Triathlon(triathlon.html) and Join (join.html). Features consistent across the five pages include:
+
+1. **Navbar**
+
+    * The navbar has the logo in the top left-hand side which when clicked returns the user to the home page. On the right-hand side are five navigation tabs linking to each of the four pages. The green (#0007c00) fits with the brand colours and provides a good contrast for the light-coloured text and logo. The logo is white (#ffffff) to fit with the brand colours. The navigation tabs are white in colour except the active page that changes to pale red (#ec7676) to provide visual feedback to the user to let them know which page they are on. The navbar collapses to a toggle button on mobile devices for an improved user experience on smaller screen sizes.
+
+2. **Hero image, callout message and ‘join us’ button**
+
+    * Each page has a hero image (although the image is different for each page), the image is the same size across all pages. Within the hero image is a callout message (again the message is different for each page to fit with the page content) that includes a ‘Join Us’ button that links directly to the sign-up form. The positioning of the callout message is the same on every page and deliberately positioned to catch the user’s eye.
+
+3. **Footer**
+
+    *The footer is the same red (#b71c1c) across all pages to provide consistency in design and fit with the brand colours. It includes social media links and copyright information which are coloured white to fit with the brand colours. The footer is the normal place that a user would look for this information.
+
+4. **Background colour styling**
+
+    * The background colour for the main body of text on each page is consist across all pages. A white background with black text for the first section and then either a light red (#ec7676) or a light green (#59b460) with white text. The light red and light green keep with the brand colours but provide some added visual appeal.
+
 
 
 ### **Technologies Used**
 * HTML5 used for the .html pages
 * CSS to style the html pages.
+* Javascript to make my website interactive.
+* [jQuery](https://api.jquery.com/) javascript library for my javascript code denoted by $ prefix on membership.js, quiz.js and sticky-navbar.js.
 * [Bootstrapv5](https://getbootstrap.com/docs/5.0/getting-started/introduction/) used for the grid layout to make the website responsive and to style appropriately for different screen sizes, to improve the user experience. I also used the bootstrap templates for the navbar (including the toggle button feature) and the buttons. I also used the Bootstrap template for the Javascript code to create the sticky navbar on desktop devices.
 * [Google Fonts](https://fonts.google.com/) used to style the headings and main text across all pages.
 * [Font Awesome](https://fontawesome.com/) used for the social media icons in the footer across all pages; for the swim, bike & run icons in the logo; on Training Locations page and on Membership page.
@@ -86,5 +114,5 @@ Having created the user stories so that I knew who I was designing my website fo
 * I watched this [tutorial](https://www.bing.com/videos/search?q=how+to+use+google+maps+api+to+display+different+locations+with+different+button+clicks&docid=608010461900771143&mid=0EB559B0CB45BB09ADB70EB559B0CB45BB09ADB7&view=detail&FORM=VIRE) to understand how to implement custom map markers and combine it with info windows.
 * I used this [pdf file](https://www.britishtriathlon.org/britain/documents/get-involved/membership/tristar/colouring-sheets/triathlon-quiz-1.pdf) for inspiration for my triathlon quiz questions and answers.
 * I watched this [video](https://youtu.be/Vg-fEVtmQVI) to learn how to link to a specific part on a different html.page.
-* [w3schools Modal Box tutorial](https://www.w3schools.com/howto/howto_css_modals.asp) used to learn how to write the html and javascript code for creating modals for membership package option buttons and sign up form button.
+* [w3schools Modal Box tutorial](https://www.w3schools.com/howto/howto_css_modals.asp) used to learn how to write the html and javascript code for creating modals for membership package option buttons.
 * I watched this [Code Institute tutorial](https://courses.codeinstitute.net/courses/course-v1:CodeInstitute+IFD101+2017_T3/courseware/03d3f6524ad249d9b33e3336d156dfd0/e4710f80cdf34bffbd607bc102482d5c/) to implment my EmailJS functionality.
