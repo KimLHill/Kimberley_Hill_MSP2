@@ -19,7 +19,7 @@ This user can find the training locations that the club currently uses via one c
 
 This user’s needs are met by the many design features that have been careful thought through and implemented to appeal to the triathlon community to attract new members. Hero images of triathlon, triathlon icons in the logo, text content about the club on the home page, a GTC membership benefits section on the membership page, an interactive quiz to learn about triathlon etc. It helps to attract new members by having regular nudges through buttons and callouts to get visitors to the website to go to the sign-up form, to hopefully attract new members to this user’s club.
 
-5. ** User 5** - I am a local person who wants to start duathlon, I want to know if I can join the club without be expected to join in swim training and if the club is suitable for beginners, so that I can decide if I want to join.
+5. ** User 5** - I am a local person who wants to start duathlon, I want to know if I can join the club without being expected to join in swim training and if the club is suitable for beginners, so that I can decide if I want to join.
 
 This user can access the information about joining the club as a duathlete through once click on the navbar join tab and scrolling to the FAQs section where it answers this question. Across the website it refers to the disciplines of swim, bike & run rather than exclusively saying ‘triathlon’. Also, on the interactive quiz it references duathlon in one of the questions, implying this is something the club does. On the home page, one of the first things this user will see, it says all abilities welcome. Again in the FAQs section it says the accommodate all fitness levels, from beginners to elite racers and covering all race distances.
 

@@ -6,7 +6,7 @@
 
 This project has been created for my Milestone Project 2 for the Full Stack Development Diploma at The Code Institute. The purpose of the project is to create an interactive front end using HTML, CSS and Javascript.
 
-Gwent Triathlon Club is a fictional triathlon club based in Gwent, Wales. The purpose of the website is to allow website users to learn more about the Gwent triathlon club, to derive answers about the club and attract new members to join the club. The user will interact with the website through a Google maps API to view their training locations; answering some questions to determine their club membership fee and by completing and submitting a joining form that it sent to a fictional club secretary.
+Gwent Triathlon Club is a fictional triathlon club based in Gwent, Wales. The purpose of the website is to allow website users to learn more about the Gwent triathlon club, to derive answers about the club and attract new members to join the club. The user will interact with the website through a Google maps API to view their training locations; selecting buttons to determine their club membership fee; playing a triathlon quiz and by completing and submitting a joining form that it will send to a fictional club secretary.
 
 My deployed project can be viewed live [here](https://kimlhill.github.io/Kimberley_Hill_MSP2/)
 
@@ -24,7 +24,7 @@ My deployed project can be viewed live [here](https://kimlhill.github.io/Kimberl
 * I am the club secretary at Gwent Triathlon Club, I want a simple way for new members to contact me so that I can invite them along to a free trial session.
 * I am the manager of a leisure centre in Gwent, I want to know where the local triathlon club currently train and find their contact details, so that I can invite them to rent my sports facilities like the swimming pool and running track.
 * I am the chair of Gwent Triathlon Club, I want a website that highlights what we do and the benefits of joining us, so that I attract new members to the club.
-* I am a local person who wants to start duathlon, I want to know if I can join the club without be expected to join in swim training and if the club is suitable for beginners, so that I can decide if I want to join.
+* I am a local person who wants to start duathlon, I want to know if I can join the club without being expected to join in swim training and if the club is suitable for beginners, so that I can decide if I want to join.
 * I am a person who is new to sport and fitness, I want to know what triathlon is and what it involves, so that I can decide if I want to give it a go.
 
 ### **The 5 Planes of UX**
@@ -35,14 +35,14 @@ Having created the user stories so that I knew who I was designing my website fo
         * Culture of the audience – Triathlon community (including the single disciplines and multisport variations of swimming, cycling and running) and the wider fitness community.
         * User demographic – the club is open to all ages and abilities of triathletes including children, paratriathletes and senior members. The website branding therefore needs to appeal visually to all ages and genders. It must also be able to navigated easily as the users could have a wide range of computer competency levels.
    
-    * I researched current triathlon websites (specifically [Malvern](https://www.malverntriathlon.co.uk/), [Evo](https://www.evotri.co.uk/) & [Manchester](https://manchestertriathlonclub.org.uk/)) to gather information on what these websites offer their users; the pros and cons that I liked as a user of their website and to identify the features and information they provided. This gave me ideas of how to address my user’s needs but also how I could further improve my User’s experience to add value to the GTC website.
+    * I researched current triathlon websites (specifically [Malvern](https://www.malverntriathlon.co.uk/), [Evo](https://www.evotri.co.uk/) & [Manchester](https://manchestertriathlonclub.org.uk/)) to gather information on what these websites offer their users; the pros and cons that I liked as a user of their website and to identify the features and information they provided. This gave me ideas of how to address my user’s needs but also how I could further improve my user’s experience to add value to the GTC website.
 
 2. **Scope Plane:**
 
     * When addressing the structure plane, I focused on the journey the website would take the users on. I kept in mind the question: What is an intuitive way to go navigate the content and features?
 	    
         * How to get there? I knew that my website should include a navbar with tabs to enable users to easily navigate through the website content. There would also be buttons linked to specific parts of the website such as the ‘sign up’ form to allow users to quickly and easily access the main features.
-	    * How will they move through the website? I decided to have 5 pages to the website: Home page (welcome and intro to the club), Training (with training locations featuring the map), Membership (featuring the membership packages and benefits of joining GTC), Triathlon (featuring a quiz to learn about/test knowledge of the sport) and Join (featuring the sign-up form, contact info and Frequently Asked Questions (FAQs)). By using this order, the user first learns about the club, can see the locations (to see if they are near to the user and if they meet the users needs), then learns about the membership benefits and pricing, then moves onto testing their knowledge/learning more about triathlon (e.g. to see if it is for them) and the once they have the above information  the user can make a fully informed decision about joining which takes them to the final page with the sign up form, FAQs to address any questions they may have and contact info in case they have further questions.
+	    * How will they move through the website? I decided to have 5 pages to the website: Home page (welcome and intro to the club), Training (with training locations featuring the map), Membership (featuring the membership packages and benefits of joining GTC), Triathlon (featuring a quiz to learn about/test knowledge of the sport) and Join (featuring the sign-up form, contact info and Frequently Asked Questions (FAQs)). By using this order, the user first learns about the club, can see the locations (to see if they are near to the user and if they meet the users needs), then learns about the membership benefits and pricing, then moves onto testing their knowledge/learning more about triathlon (e.g. to see if it is for them) and then once they have the above information, the user can make a fully informed decision about joining which takes them to the final page with the sign up form, FAQs to address any questions they may have and contact info in case they have further questions.
 
 3. **Structure Plane:**
 
@@ -54,7 +54,7 @@ Having created the user stories so that I knew who I was designing my website fo
 
 4. **Skeleton Plane:**
 
-    * When addressing the skeleton plane, I focused on the keeping the layout design of the website familiar to the Users by using a standard layout the users would be use to seeing. I kept in mind the question: What conventions will the user be familiar with?
+    * When addressing the skeleton plane, I focused on the keeping the layout design of the website familiar to the users by using a standard layout the users would be use to seeing. I kept in mind the question: What conventions will the user be familiar with?
 	
         * How to style the page? I knew that my website pages should be consistent in style and that they should use a standard page layout. I chose to use features the user would expect to see including: a navbar at the top of the page, a hero image, a callout message, a main body with titles and sub-titles and a footer at the bottom of the page.
 
@@ -71,7 +71,7 @@ Having created the user stories so that I knew who I was designing my website fo
         * Callout message - to make it obvious to the user what the page is about. 
         * Join Us buttons - I chose to add 'Join Us' buttons in the callout message of each page as a quick way to allow the users to reach the sign-up form to increase the simplicity of joining and increase the amount of traffic to this part of the website.
 
-### ** Wireframes**
+### **Wireframes**
 Before I started coding my project, I created wireframes using Balsamiq. I created wireframes for mobile, tablet and desktop devices to decide the layout at different screen sizes. I also used the user stories to add more detail to the website to provide a better user experience. A pdf copy of my wireframes can be found under wireframes in the assets folder or accessed here [Code-Institute-MSP2-wireframes.pdf](https://github.com/KimLHill/Kimberley_Hill_MSP2/files/6169621/Code-Institute-MSP2-wireframes.pdf)
 
 **Wireframes for mobile devices**
@@ -94,7 +94,7 @@ Before I started coding my project, I created wireframes using Balsamiq. I creat
 ![Desktop-wireframes-page-5](https://user-images.githubusercontent.com/74603013/111756345-01b25800-8892-11eb-8c6e-b59a29776815.jpg)
 
 ### **Features**
-The project five separate pages: Home page (index.html), Training (training.html), Membership (membership.html), Triathlon(triathlon.html) and Join (join.html). Features consistent across the five pages include:
+The project has five separate pages: Home page (index.html), Training (training.html), Membership (membership.html), Triathlon (triathlon.html) and Join (join.html). Features consistent across the five pages include:
 
 1. **Navbar**
 
@@ -110,7 +110,7 @@ The project five separate pages: Home page (index.html), Training (training.html
 
 4. **Footer**
 
-    *The footer is the same red (#b71c1c) across all pages to provide consistency in design and fit with the brand colours. It includes social media links and copyright information which are coloured white to fit with the brand colours. The footer is the normal place that a user would look for this information. The social media links open a new tab, when clicked by the user, to take them to the corresponding website.
+    * The footer is the same red (#b71c1c) across all pages to provide consistency in design and fit with the brand colours. It includes social media links and copyright information which are coloured white to fit with the brand colours. The footer is the normal place that a user would look for this information. The social media links open a new tab, when clicked by the user, to take them to the corresponding website.
 
 5. **Background colour styling**
 
@@ -125,7 +125,7 @@ Features on the seperate pages include:
 2. **Training page**
 
     * Includes an interactive map where the user can explore the training locations the club uses for swimming, cycling and running. Each map marker is colour coded to match eaither swim, bike or run with a simple key to explain this to the user. This allows the user to see if they're locations near them for the triathlon discpline they want, at a quick glance. If the user clicks on a map marker, then the name of the training location appears.
-    * Includes the locations for swim, bike and run. The headings are colour-coded to match the map amrker colours form the map above it to keep consistency in the user experience. The location names also match those in the map marker info windows, again for consistency. The locations are grouped into the triathlon discipline they provide (swim, bike or run) and then further grouped into the type of training (e.g. swim is grouped into river swims, sea swims etc.). This grouping allows the user to quickly and easily get the information that they are after. A font awesome icon relevant to each discipline above the corresponding group, adds visual appeal and further aids the user to quickly find information.
+    * Includes the locations for swim, bike and run. The headings are colour-coded to match the map marker colours form the map above it to keep consistency in the user experience. The location names also match those in the map marker info windows, again for consistency. The locations are grouped into the triathlon discipline they provide (swim, bike or run) and then further grouped into the type of training (e.g. swim is grouped into river swims, sea swims etc.). This grouping allows the user to quickly and easily get the information that they are after. A font awesome icon relevant to each discipline above the corresponding group, adds visual appeal and further aids the user to quickly find information.
 
 3. **Membership page**
 
@@ -135,17 +135,17 @@ Features on the seperate pages include:
 4. **Triathlon page**
 
     * Includes a simple introduction to the quiz, explaining to the user the number of questions, number of correct answers per question and how to get their score.
-    * Includes an interactive quiz with 10 questions on triathlon that provides a fun way to test their current level of knowledge and to help them learn more about the sport. Consistnecy in the style, layout, colours and number of potential answers keeps the quiz simple for the user to understand. The user has visual feedback about which answer option they are about to select as the cursor changes to a pointer (like convention and in keeping with the buttons on previous page) and the background colour and text changes colour as the user hovers over it. As a user selects an answer, the other possible answers are hidden this keeps the display clean. When the user selects an option, if it is correct then it colours green or colours red if incorrect, this provides instant visual feedback to the user.
-    * Includes a submit and try again button that are in keeping with the brand colours but styled differently to the buttons of the quiz answers to make it obvious to the user that the user is at the end of the quiz. When the user hovers over either again they change to a cursor pointer and change background colour and text colour, keeping consistency with what the user has already experinced through the quiz.
+    * Includes an interactive quiz with 10 questions on triathlon that provides a fun way to test their current level of knowledge and to help them learn more about the sport. Consistency in the style, layout, colours and number of potential answers keeps the quiz simple for the user to understand. The user has visual feedback about which answer option they are about to select as the cursor changes to a pointer (like convention and in keeping with the buttons on previous page) and the background colour and text changes colour as the user hovers over it. As a user selects an answer, the other possible answers are hidden this keeps the display clean. When the user selects an option, if it is correct then it colours green or colours red if incorrect, this provides instant visual feedback to the user.
+    * Includes a submit and try again button that are in keeping with the brand colours but styled differently to the buttons of the quiz answers to make it obvious to the user that the user is at the end of the quiz. When the user hovers over either, they change to a cursor pointer and change background colour and text colour, keeping consistency with what the user has already experinced through the quiz.
     * Includes a results section that shows the user the number of questions they got correct and the total number of questions, that is only revealed when the user clicks on the 'Get my score' button.
-    * Includes a 'try again' button that refreshes the quiz and takes the suer back up to the top of the page, so that the user can have another go.
+    * Includes a 'try again' button that refreshes the quiz and takes the user back up to the top of the page, so that the user can have another go.
 
 5. **Join page**
 
     * Includes an interactive sign-up form. The form is simple in design to be quick and simple for the user to complete. Placeholder text aids the user's understanding of what is required. Validation ensures that the user has inputed information into the fields before they can submit the form. 
         * The 'submit form' button is styled to stand out from the form background but in keeping with the brand colours used on the website. Keeping consistency, the cursor changes to a pointer and the background colour changes when the user hovers over the button to provide visual feedback that they are about to submit the form. Once the user has clicked the 'submit form' button it keeps a dull green colour to provide visual feedback that the form has been submitted.
         * Once the form has been submitted, an email is sent to my email inbox containing the information inputted in the form. Also an auto-reply email is sent to the user to confirm that the club has successfully received their form and explaining the next steps. This provides a quick, simple and easy sign up process for the user.
-        * A note below the form informs the user to check their inbox for a confirmation email that their form has been successfully recived by the club. It also provides alternative contact information if something was to go wrong with the form.
+        * A note below the form informs the user to check their inbox for a confirmation email that their form has been successfully received by the club. It also provides alternative contact information if something was to go wrong with the form.
     * Includes a Frequently Asked Questions (FAQs) section to provide useful information about the club. Certain answers provide links the the relevant parts of the website to aid the user in finding the information they are after.
     * Includes contact details if the user has any further questions or any other business they want to discuss with the club. When the user clicks the email or Facebook link then a seperate window opens to the corresponding website. This provides simplicity for the user but is also convention and what the user would expect.
 
@@ -165,12 +165,12 @@ Features on the seperate pages include:
 * Changed the form input fields as feedback from potential users of the website highlighted that some users would be uncomfortable submitting information like their age. In changing the input fields, I simplified the form so it is easier to understand, less time consuming to complete and less invasive in the questions asked. A text box asking for a bit of information about the user means the form now gives the user the option to include as much or little information as they are happy to provide, whilst getting the basic information required. It also gives the user the option to add any questions they may have without having to look for contact information and submit a separate email. This minimises the amount of user effort and eases the admin load for the club secretary.
 * Fixed navbar position so it in accessible at all times to the user, no matter where on the page they are for ease of navigating the website.
 * Changed some of the hero images to better quality images.
-* I created the pricing information that appears when the user selects a membership package button by using a Javascript alert. Tutor feedback made decide to change this code to a modal instead as I was made aware that some people will have 'pop-up blockers' installed on their browser and many people find pop-ups annoying. In changing this code I decided that rather than having a seperate model for each button, I would have one modal and change the text displayed depending on the membership package button option selected by the user.
+* I created the pricing information that appears when the user selects a membership package button by using a Javascript alert. Tutor feedback made me decide to change this code to a modal instead as I was made aware that some people will have 'pop-up blockers' installed on their browser and many people find pop-ups annoying. In changing this code I decided that rather than having a seperate model for each button, I would have one modal and change the text displayed depending on the membership package button option selected by the user.
 
 ### **Future Scope**
 * In the future I could add greater interactive and visual content to improve the user experience like including videos from past club training sessions or introducing the key club members to give the user a virtual experience of the club.
 * For a real-life triathlon club, it may be useful to include a link to a secure payment process that allows the user to sign up to the club and make their membership payments.
-* In the future a feature that allowed gym members to book onto training sessions with an interactive club training calendar would be useful as well as a member’s log-in area where they could see what sessions or races, they have booked to attend.
+* In the future a feature that allowed club members to book onto training sessions with an interactive club training calendar would be useful as well as a member’s log-in area where they could see what sessions or races, they have booked to attend.
 
 ### **Technologies Used**
 * HTML5 
@@ -204,11 +204,13 @@ Features on the seperate pages include:
 * [Am I responsive](http://ami.responsivedesign.is/#)
     * used to check the responsiveness of my design on different screen sizes and for creating the first image in this README file.
 * [Paint 3D](https://microsoft-paint-3d.en.softonic.com/)
-    *used to crop the screenshots of images added to this README.md file and testing.md file.
+    * used to crop the screenshots of images added to this README.md file and testing.md file.
+* [Google Chrom Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=en)
+    * used to generate Lighthouse reports on the performance of all my web pages once the project was deployed.
 
 ### **Testing**
 
-The testing that I undertook on my project is detailed in the [testing.md] file. 
+The testing that I undertook on my project is detailed in the [testing.md](testing.md) file. 
 
 ### **Deploying my project**
 
