@@ -1,3 +1,5 @@
+/*jshint esversion: 6 */ /*Comment sourced from https://stackoverflow.com/questions/37247474/es6-in-jshint-jshintrc-has-esversion-but-still-getting-warning-using-atom to solve JSHint warnings about e6 */
+
 /* Start results at 0 and total number of questions to 10 */
 let results = 0;
 let total = 10;

@@ -1,3 +1,5 @@
+/*jshint esversion: 6 */ /*Comment sourced from https://stackoverflow.com/questions/37247474/es6-in-jshint-jshintrc-has-esversion-but-still-getting-warning-using-atom to solve JSHint warnings about e6 */
+
 /* Defining variables */
 var map;
 var InfoObj = [];
@@ -249,8 +251,8 @@ function initMap() {
 var responsiveZoom = (window.innerWidth < 768) ? 6.75 : 7.75;
 
 window.addEventListener("resize", function() {
-  if (window.innerWidth < 768) responsiveZoom = 6.75
-  else if (window.innerWidth > 768) responsiveZoom = 7.75
+  if (window.innerWidth < 768) responsiveZoom = 6.75;
+  else if (window.innerWidth > 768) responsiveZoom = 7.75;
   map.setZoom(responsiveZoom);
 });
 

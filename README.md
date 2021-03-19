@@ -226,6 +226,7 @@ To make a copy of my project to your GitHub account, you can fork a copy of my p
 * I used [EmailJS email templates](https://dashboard.emailjs.com/admin/templates) to create the template for both emailing the submitted form to my email and for the auto-reply email sent to the user upon successful submission.
 * I used this [post](https://www.geeksforgeeks.org/how-to-change-hamburger-toggler-color-in-bootstrap/) for the code for changing the navbar toggler.
 * I used this [post](https://dev.to/beumsk/google-maps-show-multiple-markers-and-add-your-event-on-click-226i) for the code to make my map zoom responsive for different screen sizes.
+* I used this [post](https://stackoverflow.com/questions/37247474/es6-in-jshint-jshintrc-has-esversion-but-still-getting-warning-using-atom) to get the comment to resolve the JSHint warnings cause by esversion: 6.
 
 ### **Acknowledgements**
 * Code Institute mentor Seun Owonikoko whose feedback throughout the project influenced my website design, content and features.
