@@ -250,7 +250,7 @@ To make a copy of my project to your GitHub account, you can fork a copy of my p
     2. Search for my repository called KimLHill/Kimberley_Hill_MSP2.
     3. In the far right-hand corner of the screen at the top of the repository, click the ‘fork’ button next to the fork icon.
 
-        Further information about forking a repositorycan be found [here](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo).
+        Further information about forking a repository can be found [here](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo).
         
 ### **Credits**
 * I got the code to initialise the Google map from the [Google API website](https://developers.google.com/maps/documentation/javascript/custom-markers?hl=en_GB).
