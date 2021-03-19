@@ -20,8 +20,8 @@ My deployed project can be viewed live [here](https://kimlhill.github.io/Kimberl
 ### **User Stories**
 * I am a local triathlete, I want to know what membership price I would have to pay if I was to join the Gwent Triathlon Club.
 * I am the club secretary at Gwent Triathlon Club, I want a simple way for new members to contact me so that I can invite them along to a free trial session.
-* I am the manager a leisure centre in Gwent, I want to know where the local triathlon club currently train and find their contact details, so that I can invite them to rent my sports facilities like the swimming pool and running track.
-* I am the chair of Gwent Triathlon Club, I want a website that looks professional, highlights what we do and the benefits of joining us, so that I attract new members to the club.
+* I am the manager of a leisure centre in Gwent, I want to know where the local triathlon club currently train and find their contact details, so that I can invite them to rent my sports facilities like the swimming pool and running track.
+* I am the chair of Gwent Triathlon Club, I want a website that highlights what we do and the benefits of joining us, so that I attract new members to the club.
 * I am a local person who wants to start duathlon, I want to know if I can join the club without be expected to join in swim training and if the club is suitable for beginners, so that I can decide if I want to join.
 * I am a person who is new to sport and fitness, I want to know what triathlon is and what it involves, so that I can decide if I want to give it a go.
 

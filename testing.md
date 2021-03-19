@@ -1,6 +1,31 @@
 # **Testing**
 
 ## **User Stories**
+I tested the user stories based on the users outlined in the User Stories section of my README.md file.
+
+1. **User 1** - I am a local triathlete, I want to know what membership price I would have to pay if I was to join the Gwent Triathlon Club.
+
+This user can find the membership price information through one click on the navbar Membership tab, scrolling down to the Membership Options & Price sections and clicking on the button of the membership package suitable to them. There are 5 simple options, providing a straight-forward decision for the user. On clicking the package button, a modal appears telling them the price information and other relevant information about that package. Alongside the package options is the GTC Membership Benefits section so the suer can easily see the long list of benefits of being a member and can easily see what they get for the membership price.
+
+2. **User 2** - I am the club secretary at Gwent Triathlon Club, I want a simple way for new members to contact me so that I can invite them along to a free trial session.
+
+This user gets automatically contacted via email when a new member completes and submits the sign-up form providing a simple way for the club secretary to get new member’s details. The form allows the user to ask questions that the club secretary may need to address. New members can access the form from anywhere on the website using the ‘join us’ buttons or via one click on the navbar join tab. An automated email to the new member explains the next step so the club secretary doesn’t have to replay instantly to emails. There is also a contact email for new members to contact the club secretary provided on the join page.
+
+3. **User 3** - I am the manager of a leisure centre in Gwent, I want to know where the local triathlon club currently train and find their contact details, so that I can invite them to rent my sports facilities like the swimming pool and running track.
+
+This user can find the training locations that the club currently uses via one click on the navbar using the Training tab. Alternatively, from the home page, this user can click on the ‘training locations’ button. It also lists the types of training the club uses like indoor pools and indoor running tracks, so this user can see if the club may be interested in renting his facilities. This user can find the email address to contact the club on the join page. Alternatively, this user could submit the sign-up form with his name, email address and use the text box to write his message offering his facilities as another way to contact the club. This way this user would also get email confirmation that the club have received his message.
+
+4. **User 4** - I am the chair of Gwent Triathlon Club, I want a website that highlights what we do and the benefits of joining us, so that I attract new members to the club.
+
+This user’s needs are met by the many design features that have been careful thought through and implemented to appeal to the triathlon community to attract new members. Hero images of triathlon, triathlon icons in the logo, text content about the club on the home page, a GTC membership benefits section on the membership page, an interactive quiz to learn about triathlon etc. It helps to attract new members by having regular nudges through buttons and callouts to get visitors to the website to go to the sign-up form, to hopefully attract new members to this user’s club.
+
+5. ** User 5** - I am a local person who wants to start duathlon, I want to know if I can join the club without be expected to join in swim training and if the club is suitable for beginners, so that I can decide if I want to join.
+
+This user can access the information about joining the club as a duathlete through once click on the navbar join tab and scrolling to the FAQs section where it answers this question. Across the website it refers to the disciplines of swim, bike & run rather than exclusively saying ‘triathlon’. Also, on the interactive quiz it references duathlon in one of the questions, implying this is something the club does. On the home page, one of the first things this user will see, it says all abilities welcome. Again in the FAQs section it says the accommodate all fitness levels, from beginners to elite racers and covering all race distances.
+
+6. **User 6** - I am a person who is new to sport and fitness, I want to know what triathlon is and what it involves, so that I can decide if I want to give it a go.
+
+This user can find out this information by taking the triathlon quiz via once click on the navbar triathlon tab. The quiz helps this user to learn about triathlon from the basics through to more specific questions. The FAQs section helps to answer questions this user may have and contact details within this section provide a simple way for this user to contact the club to discuss anything further.
 
 ## **HTML Validation**
 I passed all my html code through the [W3C Markup Validation Service](https://validator.w3.org/#validate_by_input).
@@ -72,6 +97,7 @@ The following manual test were carried out on both Google Chrome and Mozilla Fir
     * Contact email address link opens up a new tab to email service.
     * Navbar items were clicked on from each page to make sure that they navigate to the correct page and that they are correctly shown as 'active' when selected.
     * All buttons and links were clicked on to check that they take the user to the correct page.
+    * Map markers display the info window with correct location information when clicked.
     * The sign-up 'submit form' button only accepts the form when it has been completed with all required fields filled in.
     * Clicking on the logo in the menu bar returns the user back to the home page.
     * The quiz buttons change colour corectly to show correct or incorrect answer selected. Also the other possible answers disappear when an answer has been selected.
