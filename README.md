@@ -184,6 +184,8 @@ Features on the seperate pages include:
     * used to check the validity of my javascript code for all .js files.
 * [Am I responsive](http://ami.responsivedesign.is/#)
     * used to check the responsiveness of my design on different screen sizes and for creating the first image in this README file.
+* [Paint 3D](https://microsoft-paint-3d.en.softonic.com/)
+    *used to crop the screenshots of images added to this README.md file and testing.md file.
 
 ### **Deploying my project**
 

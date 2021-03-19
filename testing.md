@@ -88,11 +88,8 @@ No errors or warnings. Validation passed.
 5. **Sticky-navbar.js**
 No errors or warnings. Validation passed.
 
-##**Testing Compatibility With Browsers**
-I manually tested the website on Google Chrome and Mozilla Firefox browsers. I checked that buttons, links, the form inputs, responsiveness and design worked as planned.
-
-###**Manual Testing**
-The following manual test were carried out on both Google Chrome and Mozilla Firefox:
+## **Manual Testing**
+The following manual tests were carried out on both Google Chrome and Mozilla Firefox:
     * Social media links were clicked on to make sure that they open in a new tab at the correct corresponding landing page.
     * Contact email address link opens up a new tab to email service.
     * Navbar items were clicked on from each page to make sure that they navigate to the correct page and that they are correctly shown as 'active' when selected.
@@ -104,6 +101,32 @@ The following manual test were carried out on both Google Chrome and Mozilla Fir
     * The quiz 'get my score' button correctly shows the users score.
     * The quiz 'try again' button refreshes the quiz and returns them to the top of the page.
 
-##**Bugs Found In Testing**
-    * On Mozilla Firefox, if the user presses the submit button on the sign-up form then the user is prompted with a message to complete the fields and the empty form fields were also highighted with a red border to further aid the user in completing the form correctly. However on Google Chrome only the prompt message was displayed, the borders of the input fields remained unchanged.
-    * On clicking the 'join us' button in the callout message on any page took the user to the top of the Join page, not directly to the form as intended. I changed the id of the href to direct the user to the form.
+### **Testing Compatibility With Browsers**
+I manually tested the website on Google Chrome and Mozilla Firefox browsers. I checked that buttons, links, the form inputs, responsiveness and design worked as planned.
+
+### **Testing Compatibility With Different Devices**
+I manually tested the website on a mobile and desktop device. I sent the link for my deployed website to family, who also checked the website on their devices. The website worked for the a variety of mobile, tablet (iPad) and desktop devices.
+
+### **Testing Sign-up Form**
+As a user, I tried to submit the form without completing all the form field inputs and received the follow error message and the form wouldn't submit. This worked correctly as intended.
+![Testing-checking-user-completes-form](https://user-images.githubusercontent.com/74603013/111747285-0cb3bb00-8887-11eb-8657-2473816ca4da.jpg)
+
+As a user, I received the following confirmation email in the inbox of the email address I had inputted into the sign-up form. This worked as intended.
+![Testing-user-email-confirmation-screenshot](https://user-images.githubusercontent.com/74603013/111744198-bf354f00-8882-11eb-9505-a4ad0901e1a2.jpg)
+
+I received the following email to my inbox as the club sectretary, containing all the form inputs. This worked correctly as intended.
+![Testing-signup-form-details-received-to-club-email-inbox](https://user-images.githubusercontent.com/74603013/111746887-86977480-8886-11eb-85a5-0c7c7f88094a.jpg)
+
+## **Bugs Found In Testing**
+The following differences were found when the website was deployed live:
+* On Mozilla Firefox, if the user presses the submit button on the sign-up form then the user is prompted with a message to complete the fields and the empty form fields were also highighted with a red border to further aid the user in completing the form correctly. However on Google Chrome only the prompt message was displayed, the borders of the input fields remained unchanged.
+* On clicking the 'join us' button in the callout message on any page took the user to the top of the Join page, not directly to the form as intended. I changed the id of the href to direct the user to the form.
+* On trying to submit the sign-up form without a valid email address (e.g. no @gmail.com) then the user could still submit the form because the validation was checking only that the email field was completed, not checking for a valid email address.
+* There is a bug showing a small white margin to the right-hand side of the website. However, it is not visible on any of the browsers or devices tested nor visible when inspecting the website reposnsiveness via the browser. I noticed the bug only when taking a full-width screenshot. 
+
+## **Features Still To Implement**
+The following points were found during testing that need to be rectified in the future to make the wesbite work better for all users (inc. the club).
+
+* When as a user I submitted an email address that doesn't actually exist, the form could still be submitted to the club and an email arrived in my inbox. However, as the user email confirmation email failed to be successfully delivered to the user's inbox (because it didn't exist) I received an email to let me know. 
+![Testing-user-invalid-email](https://user-images.githubusercontent.com/74603013/111745455-84341b00-8884-11eb-9a73-511b697c848d.jpg)
+However this isn't very useful to the club secretary, as she has no other means of contacting the new member who tried to sign up. In the future I will also add a phone number input field to the form, so if the user makes an error and inputs a non-existent email address, then the club can contact them via an alternative method.
