@@ -2,6 +2,8 @@
 
 ## **Gwent Triathlon Club**
 
+![MSP2-ami-responsive](https://user-images.githubusercontent.com/74603013/111742935-d5daa680-8880-11eb-9c95-890fb916df80.jpg)
+
 This project has been created for my Milestone Project 2 for the Full Stack Development Diploma at The Code Institute. The purpose of the project is to create an interactive front end using HTML, CSS and Javascript.
 
 Gwent Triathlon Club is a fictional triathlon club based in Gwent, Wales. The purpose of the website is to allow website users to learn more about the Gwent triathlon club, to derive answers about the club and attract new members to join the club. The user will interact with the website through a Google maps API to view their training locations; answering some questions to determine their club membership fee and by completing and submitting a joining form that it sent to a fictional club secretary.
@@ -180,6 +182,8 @@ Features on the seperate pages include:
     * used to check the validity of my css code for style.css file.
 * [JSHint](https://jshint.com/)
     * used to check the validity of my javascript code for all .js files.
+* [Am I responsive](http://ami.responsivedesign.is/#)
+    * used to check the responsiveness of my design on different screen sizes and for creating the first image in this README file.
 
 ### **Deploying my project**
 
