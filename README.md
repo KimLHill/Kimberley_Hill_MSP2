@@ -72,7 +72,26 @@ Having created the user stories so that I knew who I was designing my website fo
         * Join Us buttons - I chose to add 'Join Us' buttons in the callout message of each page as a quick way to allow the users to reach the sign-up form to increase the simplicity of joining and increase the amount of traffic to this part of the website.
 
 ### ** Wireframes**
-Before I started coding my project, I created wireframes using Balsamiq. I created wireframes for mobile, tablet and desktop devices to decide the layout at different screen sizes. I also used the user stories to add more detail to the website to provide a better user experience. A pdf copy of my wireframes can be found under wireframes in the assets folder.
+Before I started coding my project, I created wireframes using Balsamiq. I created wireframes for mobile, tablet and desktop devices to decide the layout at different screen sizes. I also used the user stories to add more detail to the website to provide a better user experience. A pdf copy of my wireframes can be found under wireframes in the assets folder or accessed here [Code-Institute-MSP2-wireframes.pdf](https://github.com/KimLHill/Kimberley_Hill_MSP2/files/6169621/Code-Institute-MSP2-wireframes.pdf)
+
+**Wireframes for mobile devices**
+![Mobile-wireframes-pages-123](https://user-images.githubusercontent.com/74603013/111753854-3cff5780-888f-11eb-9e75-058fdc71951b.jpg)
+
+![Mobile-wireframes-pages-45](https://user-images.githubusercontent.com/74603013/111754142-8d76b500-888f-11eb-9e79-c18fd1d4284d.jpg)
+
+**Wireframes for tablet devices**
+![Tablet-wireframes-pages-12](https://user-images.githubusercontent.com/74603013/111754702-358c7e00-8890-11eb-8f5e-3496ce0d6748.jpg)
+
+![Tablet-wireframes-pages-34](https://user-images.githubusercontent.com/74603013/111755011-8a2ff900-8890-11eb-8b70-9d58525301a5.jpg)
+
+![Tablet-wireframes-page-5](https://user-images.githubusercontent.com/74603013/111755230-ccf1d100-8890-11eb-82a5-fbb5e8ecb4ce.jpg)
+
+**Wireframes for desktop devices**
+![Desktop-wireframes-pages-12](https://user-images.githubusercontent.com/74603013/111755697-48ec1900-8891-11eb-85cd-eb2f4f0d2387.jpg)
+
+![image](https://user-images.githubusercontent.com/74603013/111756075-b4ce8180-8891-11eb-8f6f-0922caa2b4ae.png)
+
+![Desktop-wireframes-page-5](https://user-images.githubusercontent.com/74603013/111756345-01b25800-8892-11eb-8c6e-b59a29776815.jpg)
 
 ### **Features**
 The project five separate pages: Home page (index.html), Training (training.html), Membership (membership.html), Triathlon(triathlon.html) and Join (join.html). Features consistent across the five pages include:

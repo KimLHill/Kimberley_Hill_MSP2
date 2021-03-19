@@ -91,7 +91,7 @@ No errors or warnings. Validation passed.
 ## **Manual Testing**
 The following manual tests were carried out on both Google Chrome and Mozilla Firefox:
     * Social media links were clicked on to make sure that they open in a new tab at the correct corresponding landing page.
-    * Contact email address link opens up a new tab to email service.
+    * Contact email address link opens up a new tab to an email service.
     * Navbar items were clicked on from each page to make sure that they navigate to the correct page and that they are correctly shown as 'active' when selected.
     * All buttons and links were clicked on to check that they take the user to the correct page.
     * Map markers display the info window with correct location information when clicked.
@@ -100,12 +100,17 @@ The following manual tests were carried out on both Google Chrome and Mozilla Fi
     * The quiz buttons change colour corectly to show correct or incorrect answer selected. Also the other possible answers disappear when an answer has been selected.
     * The quiz 'get my score' button correctly shows the users score.
     * The quiz 'try again' button refreshes the quiz and returns them to the top of the page.
+    * The membership package buttons display the modal with corresponding correct information when clicked.
 
 ### **Testing Compatibility With Browsers**
 I manually tested the website on Google Chrome and Mozilla Firefox browsers. I checked that buttons, links, the form inputs, responsiveness and design worked as planned.
 
 ### **Testing Compatibility With Different Devices**
 I manually tested the website on a mobile and desktop device. I sent the link for my deployed website to family, who also checked the website on their devices. The website worked for the a variety of mobile, tablet (iPad) and desktop devices.
+
+### **Testing Quiz**
+As a user, I completed the quiz to ensure the quiz was interactive. The quiz worked as designed.
+![Testing-quiz](https://user-images.githubusercontent.com/74603013/111750024-9022db80-888a-11eb-8379-d1f0c775b73d.jpg)
 
 ### **Testing Sign-up Form**
 As a user, I tried to submit the form without completing all the form field inputs and received the follow error message and the form wouldn't submit. This worked correctly as intended.
