@@ -103,10 +103,14 @@ The following manual tests were carried out on both Google Chrome and Mozilla Fi
     * The membership package buttons display the modal with corresponding correct information when clicked.
 
 ### **Testing Compatibility With Browsers**
-I manually tested the website on Google Chrome and Mozilla Firefox browsers. I checked that buttons, links, the form inputs, responsiveness and design worked as planned.
+I manually tested the website on Microsoft Edge, Google Chrome and Mozilla Firefox browsers. I checked that buttons, links, the form inputs, responsiveness and design worked as planned.
 
 ### **Testing Compatibility With Different Devices**
 I manually tested the website on a mobile and desktop device. I sent the link for my deployed website to family, who also checked the website on their devices. The website worked for the a variety of mobile, tablet (iPad) and desktop devices.
+
+### **Testing Membership Package Options Modal**
+As a user, I clicked on each of the membership package options buttons and the modal appeared with the correct package option for the button I had selected. This worked correctly as intended.
+![image](https://user-images.githubusercontent.com/74603013/111760337-7f786280-8896-11eb-8438-43381e025815.png)
 
 ### **Testing Quiz**
 As a user, I completed the quiz to ensure the quiz was interactive. The quiz worked as designed.
@@ -122,9 +126,24 @@ As a user, I received the following confirmation email in the inbox of the email
 I received the following email to my inbox as the club sectretary, containing all the form inputs. This worked correctly as intended.
 ![Testing-signup-form-details-received-to-club-email-inbox](https://user-images.githubusercontent.com/74603013/111746887-86977480-8886-11eb-85a5-0c7c7f88094a.jpg)
 
+## **Testing with Google Chrome Lighthouse**
+I generated a Lighthouse report for each of the my pages to analyse the web page's performance and get tips for improving the user experience.
+
+![Testing-Lighthouse-report-Home](https://user-images.githubusercontent.com/74603013/111762270-bd768600-8898-11eb-97ea-666e7e16d610.jpg)
+
+![Testing-Lighthouse-report-Home](https://user-images.githubusercontent.com/74603013/111762270-bd768600-8898-11eb-97ea-666e7e16d610.jpg)
+
+![Testing-Lighthouse-report-Home](https://user-images.githubusercontent.com/74603013/111762270-bd768600-8898-11eb-97ea-666e7e16d610.jpg)
+
+![Testing-Lighthouse-report-Triathlon](https://user-images.githubusercontent.com/74603013/111762863-658c4f00-8899-11eb-9863-a67f184bcd62.jpg)
+
+![Testing-Lighthouse-report-Join](https://user-images.githubusercontent.com/74603013/111762923-776df200-8899-11eb-8aa0-cceeda4337bd.jpg)
+
+All the pages achieved highly for accessibility and SEO. 4 out of the 5 pages acheived a good score for performance too. However the report for my Training page was poor. Having read through the detail of the report, this low score is caused because the web page is very slow to load up. This is because there is contains a hero image and the large interactive map. These map in particular is causing the slow loading time. For a real project I would have to find alternative methods to overcome this issue so as to not impair the user experience of my website. In the future I could try compressing these features, to increase the speed at which the page loads and dramatically improve the Lighthouse score for this page.
+
 ## **Bugs Found In Testing**
 The following differences were found when the website was deployed live:
-* On Mozilla Firefox, if the user presses the submit button on the sign-up form then the user is prompted with a message to complete the fields and the empty form fields were also highighted with a red border to further aid the user in completing the form correctly. However on Google Chrome only the prompt message was displayed, the borders of the input fields remained unchanged.
+* On Mozilla Firefox, if the user presses the submit button on the sign-up form then the user is prompted with a message to complete the fields and the empty form fields were also highighted with a red border to further aid the user in completing the form correctly. However on Google Chrome and Microsoft Edge only the prompt message was displayed, the borders of the input fields remained unchanged.
 * On clicking the 'join us' button in the callout message on any page took the user to the top of the Join page, not directly to the form as intended. The same problem also occurred with the 'join us' button in the about us section of the home page. I changed the id of the hrefs to direct the user to the form.
 * On trying to submit the sign-up form without a valid email address (e.g. no @gmail.com) then the user could still submit the form because the validation was checking only that the email field was completed, not checking for a valid email address.
 * There is a bug showing a small white margin to the right-hand side of the website. However, it is not visible on any of the browsers or devices tested nor visible when inspecting the website reposnsiveness via the browser. I noticed the bug only when taking a full-width screenshot. 
@@ -135,3 +154,5 @@ The following points were found during testing that need to be rectified in the 
 * When as a user I submitted an email address that doesn't actually exist, the form could still be submitted to the club and an email arrived in my inbox. However, as the user email confirmation email failed to be successfully delivered to the user's inbox (because it didn't exist) I received an email to let me know. 
 ![Testing-user-invalid-email](https://user-images.githubusercontent.com/74603013/111745455-84341b00-8884-11eb-9a73-511b697c848d.jpg)
 However this isn't very useful to the club secretary, as she has no other means of contacting the new member who tried to sign up. In the future I will also add a phone number input field to the form, so if the user makes an error and inputs a non-existent email address, then the club can contact them via an alternative method.
+
+* Compress images to improve web page loading time, especially for the map on the Training page to improve the Lighthouse score and therefore improve the user experience. 
