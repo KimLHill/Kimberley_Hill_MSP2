@@ -172,7 +172,6 @@ Features on the seperate pages include:
 * For a real-life triathlon club, it may be useful to include a link to a secure payment process that allows the user to sign up to the club and make their membership payments.
 * In the future a feature that allowed gym members to book onto training sessions with an interactive club training calendar would be useful as well as a member’s log-in area where they could see what sessions or races, they have booked to attend.
 
-
 ### **Technologies Used**
 * HTML5 
     * used for the .html pages
@@ -206,6 +205,10 @@ Features on the seperate pages include:
     * used to check the responsiveness of my design on different screen sizes and for creating the first image in this README file.
 * [Paint 3D](https://microsoft-paint-3d.en.softonic.com/)
     *used to crop the screenshots of images added to this README.md file and testing.md file.
+
+### **Testing**
+
+The testing that I undertook on my project is detailed in the [testing.md] file. 
 
 ### **Deploying my project**
 
@@ -255,6 +258,7 @@ To make a copy of my project to your GitHub account, you can fork a copy of my p
 * I used this [post](https://www.geeksforgeeks.org/how-to-change-hamburger-toggler-color-in-bootstrap/) for the code for changing the navbar toggler.
 * I used this [post](https://dev.to/beumsk/google-maps-show-multiple-markers-and-add-your-event-on-click-226i) for the code to make my map zoom responsive for different screen sizes.
 * I used this [post](https://stackoverflow.com/questions/37247474/es6-in-jshint-jshintrc-has-esversion-but-still-getting-warning-using-atom) to get the comment to resolve the JSHint warnings cause by esversion: 6.
+* I used this [website](https://www.schemecolor.com/flag-of-wales-colors.php#:~:text=Flag%20Of%20Wales%20Hex,%20RGB%20&%20CMYK%20Codes,Vivid%20Crimson%20Hex:%20) to get the hex colours of the Welsh flag.
 
 ### **Acknowledgements**
 * Code Institute mentor Seun Owonikoko whose feedback throughout the project influenced my website design, content and features.
@@ -303,3 +307,5 @@ The images used on the wireframes that weren't used for the website, are from th
 3. **Wireframe Membership Page**
 
     * [hero image](https://th.bing.com/th/id/OIP.ni-mDXYV3nTC5yWc-eGd0AHaEK?w=301&h=180&c=7&o=5&dpr=1.25&pid=1.7)
+
+[Tablet outline](https://image.freepik.com/free-icon/computer-tablet_318-40639.jpg) used for creating my tablet wireframes.
