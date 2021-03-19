@@ -253,6 +253,7 @@ To make a copy of my project to your GitHub account, you can fork a copy of my p
         Further information about forking a repository can be found [here](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo).
         
 ### **Credits**
+* The website is for a fictional triathlon club, the content is fictional and was created by myself.
 * I got the code to initialise the Google map from the [Google API website](https://developers.google.com/maps/documentation/javascript/custom-markers?hl=en_GB).
 * I used this [post](https://medium.com/free-code-camp/how-to-change-javascript-google-map-marker-color-8a72131d1207) to get the details of the different colour map marker urls.
 * I used code from the [EmailJS documentation](https://www.emailjs.com/docs/sdk/send/) to add the necessary scripts, add my serviceID and templateID for my email functionality.
