@@ -125,7 +125,7 @@ I received the following email to my inbox as the club sectretary, containing al
 ## **Bugs Found In Testing**
 The following differences were found when the website was deployed live:
 * On Mozilla Firefox, if the user presses the submit button on the sign-up form then the user is prompted with a message to complete the fields and the empty form fields were also highighted with a red border to further aid the user in completing the form correctly. However on Google Chrome only the prompt message was displayed, the borders of the input fields remained unchanged.
-* On clicking the 'join us' button in the callout message on any page took the user to the top of the Join page, not directly to the form as intended. I changed the id of the href to direct the user to the form.
+* On clicking the 'join us' button in the callout message on any page took the user to the top of the Join page, not directly to the form as intended. The same problem also occurred with the 'join us' button in the about us section of the home page. I changed the id of the hrefs to direct the user to the form.
 * On trying to submit the sign-up form without a valid email address (e.g. no @gmail.com) then the user could still submit the form because the validation was checking only that the email field was completed, not checking for a valid email address.
 * There is a bug showing a small white margin to the right-hand side of the website. However, it is not visible on any of the browsers or devices tested nor visible when inspecting the website reposnsiveness via the browser. I noticed the bug only when taking a full-width screenshot. 
 
