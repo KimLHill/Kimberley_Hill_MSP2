@@ -62,3 +62,22 @@ No errors or warnings. Validation passed.
 
 5. **Sticky-navbar.js**
 No errors or warnings. Validation passed.
+
+##**Testing Compatibility With Browsers**
+I manually tested the website on Google Chrome and Mozilla Firefox browsers. I checked that buttons, links, the form inputs, responsiveness and design worked as planned.
+
+###**Manual Testing**
+The following manual test were carried out on both Google Chrome and Mozilla Firefox:
+    * Social media links were clicked on to make sure that they open in a new tab at the correct corresponding landing page.
+    * Contact email address link opens up a new tab to email service.
+    * Navbar items were clicked on from each page to make sure that they navigate to the correct page and that they are correctly shown as 'active' when selected.
+    * All buttons and links were clicked on to check that they take the user to the correct page.
+    * The sign-up 'submit form' button only accepts the form when it has been completed with all required fields filled in.
+    * Clicking on the logo in the menu bar returns the user back to the home page.
+    * The quiz buttons change colour corectly to show correct or incorrect answer selected. Also the other possible answers disappear when an answer has been selected.
+    * The quiz 'get my score' button correctly shows the users score.
+    * The quiz 'try again' button refreshes the quiz and returns them to the top of the page.
+
+##**Bugs Found In Testing**
+    * On Mozilla Firefox, if the user presses the submit button on the sign-up form then the user is prompted with a message to complete the fields and the empty form fields were also highighted with a red border to further aid the user in completing the form correctly. However on Google Chrome only the prompt message was displayed, the borders of the input fields remained unchanged.
+    * On clicking the 'join us' button in the callout message on any page took the user to the top of the Join page, not directly to the form as intended. I changed the id of the href to direct the user to the form.

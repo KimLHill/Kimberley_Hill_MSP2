@@ -6,6 +6,8 @@ This project has been created for my Milestone Project 2 for the Full Stack Deve
 
 Gwent Triathlon Club is a fictional triathlon club based in Gwent, Wales. The purpose of the website is to allow website users to learn more about the Gwent triathlon club, to derive answers about the club and attract new members to join the club. The user will interact with the website through a Google maps API to view their training locations; answering some questions to determine their club membership fee and by completing and submitting a joining form that it sent to a fictional club secretary.
 
+My deployed project can be viewed live [here](https://kimlhill.github.io/Kimberley_Hill_MSP2/)
+
 ## **UX**
 
 ### **Main Aims**
@@ -190,7 +192,7 @@ Features on the seperate pages include:
     3. Clicked the 'settings' tab in my project respository.
     4. Scrolled down to the 'GitHub Pages' section.
     5. I changed the source to 'Branch: master' then clicked the 'save' button.
-    6. This deployed my website which can be viewed [here]().
+    6. This deployed my website which can be viewed [here](https://kimlhill.github.io/Kimberley_Hill_MSP2/).
 
 ### **Using My Project**
 
